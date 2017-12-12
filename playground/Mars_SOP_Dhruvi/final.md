@@ -213,7 +213,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
 | *F primer (10uM)* |	*1.25 μl*	 |                  | *0.25 uM*|
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
- |*H<sub>2</sub>O|  *32 μl*   |                  |         |
+ |*H<sub>2</sub>O*|  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
  |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
  |*Total*	          | **46.0μl** 	 |                  |           |
@@ -356,13 +356,13 @@ _______________________________________**figure1**______________________________
 #### **Table 9.Tagment Genomic DNA Consumables**
 
 |Item	|Quantity|	Storage|
-|------------------------------------------:|--------------------------:|:----------------:|
-**ATM (Amplicon Tagment Mix)**              |	5 μl per sample          |	-15° to -25°C
-**TD (Tagment DNA Buffer)**	                |10 μl per sample           |	-15° to -25°C
-**NT (Neutralize Tagment Buffer)**         	| 5 μl per sample       	    |15°C to 30°C
-**TruSeq Index Plate Fixture (FC-130-1005)**|	1 (if available)            |	Room temperature
-**96-well 0.2 ml PCR plate**                |	1 plate	                   |Room temperature
-**Microseal “A” film**                     |	1	                          |Room temperature
+|:-----------------------------------------:|:--------------------------:|:----------------:|
+|**ATM (Amplicon Tagment Mix)**              |	5 μl per sample          |	-15° to -25°C|
+|**TD (Tagment DNA Buffer)**	                |10 μl per sample           |	-15° to -25°C|
+|**NT (Neutralize Tagment Buffer)**         	| 5 μl per sample       	    |15°C to 30°C|
+|**TruSeq Index Plate Fixture (FC-130-1005)**|	1 (if available)            |	Room temperature|
+|**96-well 0.2 ml PCR plate**                |	1 plate	                   |Room temperature|
+|**Microseal “A” film**                     |	1	                          |Room temperature|
 
 
 ### Preparation
@@ -370,9 +370,7 @@ _______________________________________**figure1**______________________________
    - Be sure all samples are mixed thoroughly by pipetting gently 10 times.   
    - Thaw on ice, ATM and TD, invert thawed tubes 3-5 times and then centrifuge briefly. 
    - Check NT for precipitates. If present, vortex until all particulates are re - suspended. 
-   - Set up thermal cycler and choose preheat lid option:   ***Thermocycler Program:***
-						                                               ***55 °C for 5 min***,
-						                                                  ***10 °C for ∞***
+   - Set up thermal cycler and choose preheat lid option:   ***Thermocycler Program:*** ***55 °C for 5 min***, ***10 °C for ∞***
 
 
 ### Procedure
