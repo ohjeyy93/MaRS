@@ -1,4 +1,4 @@
-#Targeted Amplicon Deep Sequencing of *Plasmodium falciparum (Pf)* molecular markers of resistance
+# Targeted Amplicon Deep Sequencing of *Plasmodium falciparum (Pf)* molecular markers of resistance
 
 *Preparing full length genes Pf kelch 13 (k13), Pf chloroquine resistant transporter (crt), Pf multidrug resistant protein 1 (mdr1), Pf bifunctional dihydrofolate reductase-thymidylate synthase (dhfr), Pf dihydropteroate synthase (dhps) and mitochondrial genome amplicons for sequencing on the Illumina MiSeq system*
 
@@ -28,6 +28,7 @@ This document provides information for an application for Illumina technology th
 November 2nd, 2017 version 3.3                          modified by Eldin Talundzic (etalundzic@cdc.gov)
 This protocol format was adapted from the 16S Metagenomics Sequencing Library Preparation protocol from Illumina.
 
+-----------
 
 ## Introduction and General Overview <a id="chapter-1"></a>
 Human malaria is caused by four parasite species called *Plasmodium falciparum (Pf), P. vivax (Pv), P. ovale (Po)* and *P. malariae (Pm)*. Two of these, Pf and Pv, pose the greatest threat to global public health. About 3.2 billion people, half of the world’s population, are at risk for malaria. In 2015, 95 nations had ongoing malaria transmission and annually 198 million people suffer from malaria, causing an estimated 438,000 deaths. In the U.S., an estimated 1,500 - 2,000 cases of malaria are imported annually. One of the greatest public health challenges for malaria control and elimination is the threat of drug resistant Pf parasites. 
@@ -36,6 +37,7 @@ Our previously effective anti-malarial treatments, chloroquine (CQ) and sulfadox
 
 Identifying and tracking drug resistance, are critical for providing appropriate malaria prophylaxis and treatment guidelines. Molecular markers of resistance are available for several anti-malarial drugs, including artemisinins. Surveillance using molecular markers provides a robust system for the detection and tracking of resistant malaria parasites.
 Below is a table of the major molecular markers and their respective amino acid polymorphisms that are associated with resistance to various anti-malarial treatments. 
+
 
 **Table 1** Molecular Markers and amino acid polymorphisms
 
@@ -55,6 +57,7 @@ The method described in this SOP provides an integrated advanced molecular detec
 
 ## Materials and Equipment <a id="chapter-2"></a>
 Please ensure all the necessary user‐supplied consumables and equipment are available before proceeding to sample preparation.
+
 
 **Table 2** User‐Supplied Consumables
 
@@ -132,6 +135,7 @@ Equipment | Supplier
 **Agilent D4200 ScreenTape System** | Agilent Technologies, Cat # G2991AA
 **MiSeq Desktop Sequencer** | Illumina Inc.
 
+
 ## Protocol Workflow <a id="chapter-3"></a>
 **NOTE: The hands-on times are based on using 96-well format plates for each step.**
 
@@ -178,6 +182,7 @@ Reagents: Resuspension Buffer, HT1, 0.2N NaOH, PhiX Control Kit v3, 200mM Tris-H
 Hands on time 5 min / 96 samples; Total time 15-25 min / 96 samples
 Method: MaRS analysis pipeline
 __*Standardized SNPs reports generated*__
+
 
 ## PET-PCR Sample QC <a id="chapter-4"></a>
 This step uses a real time PCR assay to assess the quality and quantity of starting DNA material. The readout includes an estimation of *all* DNA in the sample, host and parasite. 
