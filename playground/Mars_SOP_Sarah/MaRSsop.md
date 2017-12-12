@@ -139,11 +139,11 @@ Equipment | Supplier
 ## Protocol Workflow <a id="chapter-3"></a>
 **NOTE: The hands-on times are based on using 96-well format plates for each step.**
 
-**PET-PCR Sample Quality Check \[Sample QC]**
+##### PET-PCR Sample Quality Check \[Sample QC]
 Real-time PCR hands-on time 30 min / 96 samples; Cycle time 1.2 hours
 Reagents: Primers, 2X ABI TaqMan buffer, DNase PCR free water
 
-**PCR reaction to generate amplicons \[Amplification]**
+##### PCR reaction to generate amplicons \[Amplification]
 PCR hands-on time 30 min / 96 samples; Cycle time 2.5 hours
 Reagents: 10uM Primers, HF Phusion Taq, 5X GC Buffer, 10mM dNTPs, DNase PCR free water
 
@@ -189,7 +189,7 @@ This step uses a real time PCR assay to assess the quality and quantity of start
 
 **NOTE:** This assay is used to identify which samples should be included and/or excluded for downstream procedures. Any sample with a CT value greater than 34, should be excluded. We recommend grouping all samples with a CT > 34 and performing separate amplicon PCRs and electrophoresis for these samples. If the electrophoresis yields positive results (e.g. positive and clear bands on gel) you may procced with downstream procedures. Samples with a CT > 34 have either very low and/or no parasite DNA.
 
-###Consumables
+### Consumables
 
 **Table 4. PET-PCR Consumables**
 
@@ -201,7 +201,7 @@ Item | Quantity | Storage
 **Strip tubes 8X** | Up to 8 samples per strip | Room temperature
 **Strip Optical caps** | 8X	Up to 8 samples per strip | Room temperature
 
-###Preparation
+### Preparation
 
 * All stock primers should be prepared at a 10μM concentration.
 * DNA samples should be stored at 4°C until testing or -20°C for long term storage.
@@ -210,7 +210,7 @@ Item | Quantity | Storage
 * All samples should be tested in duplicates or triplicates in some special cases (e.g. very low density situations).
 * Typically, the genus/*P. falciparum* multiplex assay should be run first on all samples. All genus-positive sample are subsequently tested for *P. ovale*, *P. malaria* and *P. vivax*, in order to determine the species.
     
-###Procedure
+### Procedure
 
 **Initial Set up**
 
@@ -219,7 +219,7 @@ Item | Quantity | Storage
     * For example, if you are testing 10 samples, you will multiple this by two to give you 20. Add two extra reactions to account for loss of solution during pipetting. This gives you a total number of 22 reactions.  Multiply this number with the volumes below for each component to give you the total master-mix volume required for your experiment. 
 * In a 1.5mL tube, prepare your master-mix by multiplying the volumes shown below with the total number of reactions you need to run (e.g. 22 as described above). 
 
-####Primers and PCR Conditions
+#### Primers and PCR Conditions
 
 The table below shows the primers and PCR conditions for a multiplex reaction- Genus and *P. falciparum*:
 
