@@ -6,19 +6,19 @@
 
 # Table of Contents
  * [Introduction/General Overview](#chapter-1)
- * [Chapter 2](Materials and Equipment)
- * [Chapter 3](NGS Library Preparation Workflow)
- * [Chapter 4](PET PCR Sample QC)
- * [Chapter 5](Gene PCR Enrichment)
- * [Chapter 6](Electrophoresis)
- * [Chapter 7](SequalPrep Normalization and Purification)
- * [Chapter 8](Tagment Genomic DNA)
- * [Chpater 9](Library Amplification and Index PCR)
- * [Chapter 10](Library Clean up)
- * [Chapter 11](Next Steps)
- * [Chapter 12](Library Pooling, Quantification, and Normalization)
- * [Chapter 13]((Library Denaturing and MiSeq Sample Loading)
- * [Chpater 14](Supporting Information)
+ * [Materials and Equipment](#chapter-2)
+ * [NGS Library Preparation Workflow](#chapter-3)
+ * [PET PCR Sample QC](#chapter-4)
+ * [Gene PCR Enrichment](#chapter-5)
+ * [Electrophoresis](#chapter-6)
+ * [SequalPrep Normalization and Purification](#chapter-7)
+ * [Tagment Genomic DNA](#chapter-8)
+ * [Library Amplification and Index PCR](#chapter-9)
+ * [Library Clean up](#chapter-10)
+ * [Next Steps](#chapter-11)
+ * [Library Pooling, Quantification, and Normalization](#chapter-12)
+ * [Library Denaturing and MiSeq Sample Loading](#chapter-13)
+ * [Supporting Information](#chapter-14)
 
 -----------
 
