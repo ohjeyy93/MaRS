@@ -11,7 +11,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
 | *F primer (10uM)* |	*1.25 μl*	 |                  | *0.25 uM*|
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
- |*H(<sup>2</sup>)O*	            |  *32 μl*   |                  |         |
+ |*H<sub>2</sub>O*	            |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
  |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
  |*Total*	          | **46.0μl** |                  |           |
@@ -43,7 +43,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
 | *F primer (10uM)*  |	*1.25 μl*	 |                  | *0.25 uM*|
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
- |*H(<sup>2</sup>)O*	 |  *32 μl*   |                  |         |
+ |*H<sub>2</sub>O*	 |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
  |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
  |*Total*	          | **46.0μl** |                  |           |
@@ -72,12 +72,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 |*Mitch(5967bp)*	  | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
 |:--------------------:|:--------------:|:-------------:|:-----------------:|
-| *Master Mix:*      |                                                                                                 	                                                                              
+| *Master Mix:*      |                                                                                                 	                                               
 | *5X GC Buffer*    | 	*10.0 μl*|                  | *1 x*|
 | *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
 | *F primer (10uM)* |	*1.25 μl*	 |                  | *0.25 uM*|
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
- |*H(n<sup>2</sup>)O*	            |  *32 μl*   |                  |         |
+ |*H<sub>2</sub>O*	            |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
  |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
  |*Total*	          | **46.0μl** |                  |           |
@@ -92,7 +92,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 |***50 oC***	|***0:30 min***	 | ***30X*** |
 |***65 oC***	|***5:00 min***	 |       |
 |*65 oC*	|*10:00min*	 |           |
-|*4 oC	* |*∞*|        |   
+|*4 oC* |*∞*|        |   
 
 
 
@@ -111,12 +111,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 |*Pfcytb 1 (937bp)*	  | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
 |:------------------:|:--------------:|:-------------:|:--------------:-|
-| *Master Mix:*      |                                                                                                 	                                                                              
+| *Master Mix:*      |                                                                                                 	                                                       
 | *5X GC Buffer*    | 	*10.0 μl*|                  | *1 x*|
 | *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
 | *F primer (10uM)* |	*1.25 μl*	 |                  | *0.25 uM*|
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
- |*H(<sup>2</sup>)O*|  *32 μl*   |                  |         |
+ |*H<sub>2</sub>O*|  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
  |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
  |*Total*	          | **46.0μl** |                  |           |
@@ -179,7 +179,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
 | *F primer (10uM)* |	*1.25 μl*	 |                  | *0.25 uM*|
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
- |*H(<sup>2</sup>)O*	            |  *32 μl*   |                  |         |
+ |*H<sub>2</sub>O*	            |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
  |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
  |*Total*	          | **46.0μl**	 |                  |           |
@@ -213,7 +213,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
 | *F primer (10uM)* |	*1.25 μl*	 |                  | *0.25 uM*|
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
- |*H(<sup>2</sup>)O*|  *32 μl*   |                  |         |
+ |*H<sub>2</sub>O|  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
  |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
  |*Total*	          | **46.0μl** 	 |                  |           |
@@ -224,11 +224,11 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
  |Thermal  |cycling  |conditions|
 |:---------:|:---------:|:----------:|
 |*98 oC*	  |*3:00 min*	   |           |
-|***98 oC***	|***0:10 min ***|           |
-|***58 oC***	|***0:30 min ***	 | ***30X*** |
-|***65 oC***	|***5:00 min ***	 |       |
+|***98 oC***	|***0:10 min***|           |
+|***58 oC***	|***0:30 min***	 | ***30X*** |
+|***65 oC***	|***5:00 min***	 |       |
 |*65 oC*	|*10:00min*	 |           |
-|*4 oC	* |*∞*|        |   
+|*4 oC* |*∞*|        |   
 
 
 **Primers:  Pfdhps_F Sequence (5' to 3'):** AATATTTGCGCCAAACTTTTTA; **Pfdhps_R Sequence (5' to 3'):** TTTATTTCGTAATAGTCCACTTTTGAT
@@ -242,10 +242,10 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 This step is necessary to ensure successful amplification of amplicons. It is recommended to run at least 25% of the total samples, all no-template and negative controls on the gel to confirm amplification was successful and no contamination occured. Please note PCR amplification can be affected by numerous factors, including but not limited to, DNA quality and quantity. 
 
 ### Consumables
-#####** Table7  Electrophoresis Consumables**
+#### **Table7  Electrophoresis Consumables**
 
-|Item                                                  |Quantity                |	Storage|
-|:-----------------------------------------------------|:------------------------|:-------------------|                                              
+|Item                                                   |Quntity                |	Storage|
+|:-----------------------------------------------------:|:-----------------------:|:------------------:|                                             
 |**Agarose** |1g (for a 1% gel)|Room temperature|
 |**1x solution of 10X TBE Buffer and deionized water** | 	100mL (for a 1% gel) | Room temperature|
 **Nucleic Acid Gel Stain** |	5 μl per 100mL of buffer |	Room temperature
@@ -281,14 +281,14 @@ This protocol format was adapted from the SequalPrep™ Normalization Plate (96)
 ### Consumables
 
 
-####** Table 8.** PCR Purification 1 SequalPrep Consumables
-|                Item                                                |  Quantity                |Storage                          |
-|:-------------------------------------------------------------------|:-------------------------|:---------------------------------|
-|**SequalPrep™Normalization Plate (96)**    	                        |1 plate   	           |15° to 30°C (Room temperature)|
-|**SequalPrep™Normalization Binding Buffer**                          |1 μl per 1 μl of sample| 15° to 30°C (Room temperature)|
-|**SequalPrep™Normalization Wash Buffer** 	                          |0 μl per sample 	         |15° to 30°C (Room temperature)|
-|**SequalPrep™Normalization Elution Buffer(10mM Tris-HCL, pH 8.5)**  |20 μl per sample           |15° to 30°C (Room temperature)|
-|**(Optional) Foil Tape** 	                                           |2 sheets                  |15° to 30°C (Room temperature)|
+#### **Table 8.** PCR Purification 1 SequalPrep Consumables
+|                Item                                                 | Quantity                |Storage                          |
+|:------------------------------------------------------------------:|:------------------------:|:----------------------------------:|
+|**SequalPrep™Normalization Plate (96)**    	                      |1 plate   	         | 15° to 30°C (Room temperature)  |
+|**SequalPrep™Normalization Binding Buffer**                          |1 μl per 1 μl of sample   | 15° to 30°C (Room temperature) |
+|**SequalPrep™Normalization Wash Buffer** 	                      |0 μl per sample 	         | 15° to 30°C (Room temperature) |
+|**SequalPrep™Normalization Elution Buffer(10mM Tris-HCL, pH 8.5)**   |20 μl per sample          |15° to 30°C (Room temperature) |
+|**(Optional) Foil Tape** 	                                      |2 sheets                  |15° to 30°C (Room temperature) |
 
 ### Preparation
 
@@ -304,7 +304,7 @@ This protocol format was adapted from the SequalPrep™ Normalization Plate (96)
 
 ### Procedure
 
-####** Binding Step**
+#### **Binding Step**
 
 1. 	Transfer the desired volume of PCR product (5–25 μl PCR reaction mix, at least 250 ng amplicon/well) from the PCR plate into the wells of the SequalPrep™ Normalization plate. 
 2. 	Add an equivalent volume of SequalPrep™ Normalization Binding Buffer. 
@@ -316,7 +316,7 @@ This protocol format was adapted from the SequalPrep™ Normalization Plate (96)
 5. 	Optional: If >25 ng DNA/well yield is desired, transfer the amplicon/Binding Buffer mixture from Step 4 to another, fresh well/plate to sequentially bind more DNA. Perform DNA binding at room temperature for 1 hour. 
         **NOTE:** After binding is complete, you can remove the amplicon/Binding Buffer mixture from the well and store at –20ºC for up to 30 days to perform additional purifications at a later time.  
         
-####** Washing Step**
+#### **Washing Step**
 
 6. 	Aspirate the liquid from wells. Be sure not to scrape the well sides during aspiration.
 7. 	Add 50 μl SequalPrep™ Normalization Wash Buffer to the wells. Mix by pipetting up and down twice to improve removal of contaminants.
@@ -324,7 +324,7 @@ This protocol format was adapted from the SequalPrep™ Normalization Plate (96)
 
 8. 	Completely aspirate the buffer from wells and discard. To ensure complete removal of wash buffer and maximize elution efficiency, you may need to invert and tap the plate on paper towels depending on the pipetting technique or instrument used. A small amount of residual Wash Buffer (1–3 μl) is typical and does not affect the subsequent elution or downstream applications.
 
-####** Elution Step**
+#### **Elution Step**
 
 9. 	Add 20 μl SequalPrep™ Normalization Elution Buffer to each well of the plate.
        **NOTE:** Do not use water for elution. If you need to elute in any other buffer, be sure to use a buffer of pH 8.5–9.0. If the pH of the buffer is <8.5, the DNA will not elute efficiently.  
@@ -353,7 +353,7 @@ _______________________________________**figure1**______________________________
 
 ### Consumables
 
-**Table 9.Tagment Genomic DNA Consumables**
+#### **Table 9.Tagment Genomic DNA Consumables**
 
 |Item	|Quantity|	Storage|
 |------------------------------------------:|--------------------------:|:----------------:|
@@ -362,7 +362,7 @@ _______________________________________**figure1**______________________________
 **NT (Neutralize Tagment Buffer)**         	| 5 μl per sample       	    |15°C to 30°C
 **TruSeq Index Plate Fixture (FC-130-1005)**|	1 (if available)            |	Room temperature
 **96-well 0.2 ml PCR plate**                |	1 plate	                   |Room temperature
-**Microseal “A” film **                     |	1	                          |Room temperature
+**Microseal “A” film**                     |	1	                          |Room temperature
 
 
 ### Preparation
@@ -371,8 +371,8 @@ _______________________________________**figure1**______________________________
    - Thaw on ice, ATM and TD, invert thawed tubes 3-5 times and then centrifuge briefly. 
    - Check NT for precipitates. If present, vortex until all particulates are re - suspended. 
    - Set up thermal cycler and choose preheat lid option:   ***Thermocycler Program:***
-						                                                	***55 °C for 5 min ***
-						                                                  ***10 °C for ∞ ***
+						                                               ***55 °C for 5 min***,
+						                                                  ***10 °C for ∞***
 
 
 ### Procedure
@@ -380,7 +380,7 @@ _______________________________________**figure1**______________________________
 
 |      Item                           |Volume (μl)|
 |:------------------------------------:|:----------:|
-|   **TD **	                          |   10  |
+|   **TD**	                          |   10  |
 | **Normalized pooled gene amplicons**|   5   |
 
 2.	Add 5 μl ATM to each well. Pipette to mix.
@@ -388,7 +388,7 @@ _______________________________________**figure1**______________________________
 4.	Place on the preprogrammed thermal cycler and run the tagmentation program
 	***Thermocycler Program:***
 	***55 °C for 5 min*** 
-	***10 °C for ∞ ***
+	***10 °C for ∞***
 	
   **NOTE:** Be sure to remove the plate as soon as the reaction has completed- NT must be added to the well immediately after the reaction has completed in order to stop the reaction.  
 
@@ -402,10 +402,10 @@ _______________________________________**figure1**______________________________
 This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR step adds Index 1 (i7) adapters and Index 2 (i5) adapters and sequences required for cluster formation. Use the full amount of recommended input DNA. To ensure libraries produce high-quality sequencing results, use the specified number of PCR cycles
 
 ### Consumables
-**Table 10. Library Amplification and Index PCR Consumables**
+#### **Table 10. Library Amplification and Index PCR Consumables**
 
 |Item	                                                                                       |Quantity          |	Storage|
-|:----------------------------------------------------------------------------------------------:|:-----------------:|:-----------------:|
+|:----------------------------------------------------------------------------------------------|:-----------------|:-----------------|
 |**NPM (Nextera PCR Master Mix)**	                                                               |15 μl per sample  |	-15° to -25°C   |
 |**Nextera XT Index 1 Primers (N7XX) from the Nextera XT Index kit (FC-131-1001 or FC-131-1002)**|5 μl per sample   |	-15° to -25°C   |
 |**Nextera XT Index 2 Primers (S5XX) from the Nextera XT Index kit (FC-131-1001 or FC-131-1002)**|5 μl per sample	  |-15° to -25°C    |
