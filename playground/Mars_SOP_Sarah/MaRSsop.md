@@ -5,7 +5,7 @@
 ---------
 
 # Table of Contents
- * [Chapter 1](Introduction/General Overview)
+ * [Introduction/General Overview](#chapter-1)
  * [Chapter 2](Materials and Equipment)
  * [Chapter 3](NGS Library Preparation Workflow)
  * [Chapter 4](PET PCR Sample QC)
