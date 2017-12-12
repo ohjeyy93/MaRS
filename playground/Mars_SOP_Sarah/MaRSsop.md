@@ -139,7 +139,7 @@ Equipment | Supplier
 ## Protocol Workflow <a id="chapter-3"></a>
 **NOTE: The hands-on times are based on using 96-well format plates for each step.**
 
-##### PET-PCR Sample Quality Check \[Sample QC]
+##### **PET-PCR Sample Quality Check \[Sample QC]**
 Real-time PCR hands-on time 30 min / 96 samples; Cycle time 1.2 hours
 Reagents: Primers, 2X ABI TaqMan buffer, DNase PCR free water
 
@@ -147,7 +147,7 @@ Reagents: Primers, 2X ABI TaqMan buffer, DNase PCR free water
 PCR hands-on time 30 min / 96 samples; Cycle time 2.5 hours
 Reagents: 10uM Primers, HF Phusion Taq, 5X GC Buffer, 10mM dNTPs, DNase PCR free water
 
-**Analysis of PCR amplicons \[Electrophoresis\]** 
+##### Analysis of PCR amplicons \[Electrophoresis\]
 PCR amplicon electrophoresis hands-on time 10 min / 8 samples; Gel running time 30 min
 If < 20 samples, run all samples on the gel; If > 20 samples, pick 20 samples with varying CT values and run on the gel 
 Reagents: Agarose, DNA loading dye, 1kb DNA ladder, 1X TBE Buffer
