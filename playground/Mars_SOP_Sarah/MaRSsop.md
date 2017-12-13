@@ -30,7 +30,8 @@ This protocol format was adapted from the 16S Metagenomics Sequencing Library Pr
 
 -----------
 
-## Introduction and General Overview <a id="chapter-1"></a>
+<a id="chapter-1"></a>
+## Introduction and General Overview 
 Human malaria is caused by four parasite species called *Plasmodium falciparum (Pf), P. vivax (Pv), P. ovale (Po)* and *P. malariae (Pm)*. Two of these, Pf and Pv, pose the greatest threat to global public health. About 3.2 billion people, half of the world’s population, are at risk for malaria. In 2015, 95 nations had ongoing malaria transmission and annually 198 million people suffer from malaria, causing an estimated 438,000 deaths. In the U.S., an estimated 1,500 - 2,000 cases of malaria are imported annually. One of the greatest public health challenges for malaria control and elimination is the threat of drug resistant Pf parasites. 
 
 Our previously effective anti-malarial treatments, chloroquine (CQ) and sulfadoxine/pyrimethamine (SP), are ineffective in many regions. Even more alarming, resistance to our last effective class of anti-malarial drugs, called artemisinins, has now emerged and spread in Southeast Asia — threatening malaria control and prevention programs globally. 
@@ -42,7 +43,7 @@ Below is a table of the major molecular markers and their respective amino acid 
 **Table 1** Molecular Markers and amino acid polymorphisms
 
 **_Resistance to treatment_** | **_Molecular marker_** | **_Associated drug resistance mutations_**
-|--------------------------- | ------------------------- | -----------------------------------------
+|------------------------ | --------------------------- | -----------------------------------------
 *Chloroquine* | *crt* | M74I    N75E    K76T    A220S    Q271E    N326S    I356T    **\*C350R**    R371I 
 *Chloroquine, quinolone, mefloquine, aminoquinoline halofantrine* | *mdr1* | N86Y    Y186F    S1034C    N1042D    D1246Y 
 *Atvaqoune* | *cytochrome b* | I258M    Y268S
@@ -54,8 +55,8 @@ _**\*C350R** results in a reduction of chloroquine resistance._
 
 The method described in this SOP provides an integrated advanced molecular detection system for drug resistance surveillance of all currently known anti-malarial treatments. This technology is based on a next generation sequencing (NGS) protocol referred to as targeted amplicon deep sequencing (TADS). 
 
-
-## Materials and Equipment <a id="chapter-2"></a>
+<a id="chapter-2"></a>
+## Materials and Equipment 
 Please ensure all the necessary user‐supplied consumables and equipment are available before proceeding to sample preparation.
 
 
@@ -135,8 +136,8 @@ Equipment | Supplier
 **Agilent D4200 ScreenTape System** | Agilent Technologies, Cat # G2991AA
 **MiSeq Desktop Sequencer** | Illumina Inc.
 
-
-## Protocol Workflow <a id="chapter-3"></a>
+<a id="chapter-3"></a>
+## Protocol Workflow 
 **NOTE: The hands-on times are based on using 96-well format plates for each step.**
 
 #### PET-PCR Sample Quality Check \[Sample QC]
@@ -183,8 +184,8 @@ Hands on time 5 min / 96 samples; Total time 15-25 min / 96 samples
 Method: MaRS analysis pipeline
 __*Standardized SNPs reports generated*__
 
-
-## PET-PCR Sample QC <a id="chapter-4"></a>
+<a id="chapter-4"></a>
+## PET-PCR Sample QC 
 This step uses a real time PCR assay to assess the quality and quantity of starting DNA material. The readout includes an estimation of *all* DNA in the sample, host and parasite. 
 
 **NOTE:** This assay is used to identify which samples should be included and/or excluded for downstream procedures. Any sample with a CT value greater than 34, should be excluded. We recommend grouping all samples with a CT > 34 and performing separate amplicon PCRs and electrophoresis for these samples. If the electrophoresis yields positive results (e.g. positive and clear bands on gel) you may procced with downstream procedures. Samples with a CT > 34 have either very low and/or no parasite DNA.
@@ -291,7 +292,8 @@ The table below shows the primers and PCR conditions for a multiplex reaction- G
 **For more information, please see:** 
 Lucchi, N.W., et al., Molecular diagnosis of malaria by photo-induced electron transfer fluorogenic primers: PET-PCR. *PLoS One*, 2013. 8(2): p. e56677.
 
-## Gene PCR Enrichment <a id="chapter-5"></a>
+<a id="chapter-5"></a>
+## Gene PCR Enrichment 
 ##### This step uses PCR to amplify template from a DNA sample using region of interest-specific primers.
 User‐defined forward and reverse primers are used to amplify templates from genomic DNA. A subsequent limited‐cycle amplification step is performed to add multiplexing indices and Illumina sequencing adapters. Libraries are normalized and pooled, and sequenced on the MiSeq system using v2 reagents.
 
@@ -345,12 +347,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 |Thermal  |cycling  |conditions|
 |:------:|:---------:|:----------:|
-|*98 oC*        |*3:00 min*  |           |
-|***98 oC***	|**_0:10 min_**|           |
-|***62 oC***	|**_0:30 min_**| **_30X_** |
-|***65 oC***	|**_5:00 min_**|       |
-|*65 oC*	|*10:00min*	 |           |
-|*4 oC* |*∞*|        |   
+|*98°C*        |*3:00 min*  |           |
+|***98°C***	|**_0:10 min_**|           |
+|***62°C***	|**_0:30 min_**| **_30X_** |
+|***65°C***	|**_5:00 min_**|       |
+|*65°C*	|*10:00min*	 |           |
+|*4°C* |*∞*|        |   
 
 
 
@@ -377,12 +379,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 |Thermal  |cycling  |conditions|
 |:------|:---------|:----------|
-|*98 oC*	  |*3:00 min*	   |           |
-|***98 oC***	|***0:10 min***|           |
-|***58 oC***	|***0:30 min***	 | ***30X*** |
-|***65 oC***	|***5:00 min***	 |       |
-|*65 oC*	|*10:00min*	 |           |
-|*4 oC* |*∞*|        |   
+|*98°C*	  |*3:00 min*	   |           |
+|***98°C***	|***0:10 min***|           |
+|***58°C***	|***0:30 min***	 | ***30X*** |
+|***65°C***	|***5:00 min***	 |       |
+|*65°C*	|*10:00min*	 |           |
+|*4°C* |*∞*|        |   
 
 
 
@@ -410,12 +412,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
  
  |Thermal  |cycling  |conditions|
 |:------|:---------|:----------|
-|*98 oC*	  |*3:00 min*	   |           |
-|***98 oC***	|***0:10 min***|           |
-|***50 oC***	|***0:30 min***	 | ***30X*** |
-|***65 oC***	|***5:00 min***	 |       |
-|*65 oC*	|*10:00min*	 |           |
-|*4 oC* |*∞*|        |   
+|*98°C*	  |*3:00 min*	   |           |
+|***98°C***	|***0:10 min***|           |
+|***50°C***	|***0:30 min***	 | ***30X*** |
+|***65°C***	|***5:00 min***	 |       |
+|*65°C*	|*10:00min*	 |           |
+|*4°C* |*∞*|        |   
 
 
 
@@ -450,12 +452,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 |Thermal  |cycling  |conditions|
 |:------|:---------|:----------|
-|*98 oC*	  |*3:00 min*	   |           |
-|***98 oC***	|***0:10 min***|           |
-|***60 oC***	|***0:30 min***	 | ***30X*** |
-|***65 oC***	|***5:00 min***	 |       |
-|*65 oC*	|*10:00min*	 |           |
-|*4 oC* |*∞*|        |   
+|*98°C*	  |*3:00 min*	   |           |
+|***98°C***	|***0:10 min***|           |
+|***60°C***	|***0:30 min***	 | ***30X*** |
+|***65°C***	|***5:00 min***	 |       |
+|*65°C*	|*10:00min*	 |           |
+|*4°C* |*∞*|        |   
 
 
 **Primers: CytB_F1_Sequence (5' to 3'):** CTATTAATTTAGTTAAAGCACAC; **CytB_R1_Sequence (5' to 3'):** ACAGAATAATCTCTAGCACCA
@@ -480,12 +482,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 |Thermal  |cycling  |conditions|
 |:----------:|:---------:|:----------:|
-|*98 oC*	  |*3:00 min*	   |           |
-|***98 oC***	|***0:10 min***|           |
-|***60 oC***	|***0:30 min***	 | ***30X*** |
-|***65 oC***	|***5:00 min***	 |       |
-|*65 oC*	|*10:00min*	 |           |
-|*4 oC* |*∞*|        |   
+|*98°C*	  |*3:00 min*	   |           |
+|***98°C***	|***0:10 min***|           |
+|***60°C***	|***0:30 min***	 | ***30X*** |
+|***65°C***	|***5:00 min***	 |       |
+|*65°C*	|*10:00min*	 |           |
+|*4°C* |*∞*|        |   
 
 
 **Primers:  Pfmdr1_F1_Sequence (5' to 3'):** TGGTAACCTCAGTATCAAAG; **Pfmdr1_R1_Sequence** (5' to 3'): CATCTTGTGCTGATAATAATTC
@@ -513,12 +515,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 |Thermal  |cycling  |conditions|
 |:------:|:---------:|:----------:|
-|*98 oC*	  |*3:00 min*	   |           |
-|***98 oC***	|***0:10 min***|           |
-|***58 oC***	|***0:30 min***	 | ***30X*** |
-|***65 oC***	|***5:00 min***	 |       |
-|*65 oC*	|*10:00min*	 |           |
-|*4 oC* |*∞*|        |   
+|*98°C*	  |*3:00 min*	   |           |
+|***98°C***	|***0:10 min***|           |
+|***58°C***	|***0:30 min***	 | ***30X*** |
+|***65°C***	|***5:00 min***	 |       |
+|*65°C*	|*10:00min*	 |           |
+|*4°C* |*∞*|        |   
 
 **Primers:  Pfdhfr_F1 Sequence (5' to 3'):** TTTTTACTAGCCATTTTTGTATTCC; **Pfdhfr_R1 Sequence  (5' to 3'):** TTAACCGTTCAGGTAATTTTGTCA
 
@@ -547,12 +549,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
  
  |Thermal  |cycling  |conditions|
 |:---------:|:---------:|:----------:|
-|*98 oC*	  |*3:00 min*	   |           |
-|***98 oC***	|***0:10 min***|           |
-|***58 oC***	|***0:30 min***	 | ***30X*** |
-|***65 oC***	|***5:00 min***	 |       |
-|*65 oC*	|*10:00min*	 |           |
-|*4 oC* |*∞*|        |   
+|*98°C*	  |*3:00 min*	   |           |
+|***98°C***	|***0:10 min***|           |
+|***58°C***	|***0:30 min***	 | ***30X*** |
+|***65°C***	|***5:00 min***	 |       |
+|*65°C*	|*10:00min*	 |           |
+|*4°C* |*∞*|        |   
 
 
 **Primers:  Pfdhps_F Sequence (5' to 3'):** AATATTTGCGCCAAACTTTTTA; **Pfdhps_R Sequence (5' to 3'):** TTTATTTCGTAATAGTCCACTTTTGAT
@@ -560,8 +562,8 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 ***\*Primers adapted from: SC, Carlton JM. 2016.*** A Method for Amplicon Deep Sequencing of Drug Resistance Genes in Plasmodium falciparum Clinical Isolates from India. J Clin Microbiol 54:1500–1511.
 
 
-
-## Electrophoresis <a id="chapter-6"></a>
+<a id="chapter-6"></a>
+## Electrophoresis 
 
 This step is necessary to ensure successful amplification of amplicons. It is recommended to run at least 25% of the total samples, all no-template and negative controls on the gel to confirm amplification was successful and no contamination occured. Please note PCR amplification can be affected by numerous factors, including but not limited to, DNA quality and quantity. 
 
@@ -597,7 +599,8 @@ This step is necessary to ensure successful amplification of amplicons. It is re
 16. Remove the gel from the chamber and take to the gel reading station for analysis.
 17. Once amplification is confirmed, proceed to SequalPrep Normalization **(page 15-16)**.
 
-## SequalPrep Normalization <a id="chapter-7"></a>
+<a id="chapter-7"></a>
+## SequalPrep Normalization 
 This step utilizes ChargeSwitch Technology to purify and normalize amplicon PCR product. PCR product is added to the plate and mixed with Binding Buffer, which then sits at room temperature for 1 hour. The DNA is then washed and eluted, resulting in a purified and normalized DNA product. 
 
 This protocol format was adapted from the SequalPrep™ Normalization Plate (96) Kit [protocol](https://www.thermofisher.com/order/catalog/product/A1051001) from ThermoFisher Scientific
@@ -666,8 +669,8 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 
 **SAFE STOPPING POINT** If you do not immediately proceed to *Tagment Genomic DNA,* seal plate with Microseal “B” adhesive seal and store it at ‐15° to ‐25°C for up to a week.
 
-
-## Tagment Genomic DNA <a id="chapter-8"></a>
+<a id="chapter-8"></a>
+## Tagment Genomic DNA 
   This step uses the Nextera transposome to tagment gDNA, which fragments and then tags the DNA with adaptor sequences in a single step. 
 
 ![alt text](https://github.com/CDCgov/MaRS/blob/master/images/Nextera.png)
@@ -718,7 +721,8 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 8.	[optional] To assess tagmentation, run 1 uL on Agilent Bioanalyzer and/or Tapestation using high sensitivity DNA chip. 
 9.	Proceed to Library Amplification and Index PCR
 
-## Library Amplification and Index PCR <a id="chapter-9"></a>
+<a id="chapter-9"></a>
+## Library Amplification and Index PCR 
 This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR step adds Index 1 (i7) adapters and Index 2 (i5) adapters and sequences required for cluster formation. Use the full amount of recommended input DNA. To ensure libraries produce high-quality sequencing results, use the specified number of PCR cycles
 
 ### Consumables
@@ -773,7 +777,8 @@ This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR
 
 **SAFE STOPPING POINT** If you do not immediately proceed to Library Clean-Up on page 21, seal plate with an adhesive seal and store it at 2° to 8°C for up to a week.
 
-## Library Clean‐Up <a id="chapter-10"></a>
+<a id="chapter-10"></a>
+## Library Clean‐Up 
 This step uses AMPure XP beads to clean up the final library before quantification.
 
 ### Consumables
@@ -849,8 +854,8 @@ To maximize recovery of smaller fragments from the bead cleanup step, use the fo
 **SAFE STOPPING POINT**
 If you do not plan to proceed to Library Clustering on page 24, seal the plate with Microseal “B” adhesive seal. Store the plate at ‐15° to ‐25°C for up to a week.
 
-
-## Library Clustering <a id="chapter-11"></a>
+<a id="chapter-11"></a>
+## Library Clustering 
 It is important to consider library size when preparing samples for cluster generation. Because the clustering process preferentially amplifies shorter libraries in a mixture of fragments, large libraries tend to cluster less efficiently than small libraries. The DNA concentration used for clustering can be adjusted to increase the cluster density of larger libraries.  Consider table 1 below:
 
 ### Library Denaturing and MiSeq Sample Loading
@@ -864,13 +869,15 @@ It is important to consider library size when preparing samples for cluster gene
 250 bp |	1 ng/μl = 6 nM |	6-12 pM
 500 bp | 	1 ng/μl = 3 nM | 	6-12 pM
 1,000 – 1,500 bp |	1 ng/μl = 1.5 nM |	12-20 pM
+
 *The values presented here are approximations, and exact values determined for each experiment may differ from these guidelines. The guidelines presented are applicable to Nextera DNA libraries and Nextera XT libraries that have not been normalized. 
 
-## Library Pooling, Quantification, and Normalization <a id="chapter-12"></a>
+<a id="chapter-12"></a>
+## Library Pooling, Quantification, and Normalization 
 #### This step requires three parts: 
-    **Part I** Pool libraries
-    **Part II** Quantification of fragment size and concentration to determine library concentration in nM
-     **Part III** Diluting your final library in Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to a 4 nM solution
+   **Part I** Pool libraries
+   **Part II** Quantification of fragment size and concentration to determine library concentration in nM
+   **Part III** Diluting your final library in Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to a 4 nM solution
      
 ### **Part I:** Pooling
 Aliquot 5 μl of diluted DNA from each library into a 1.5 microcentrifuge tube and mix aliquots for pooling libraries with unique indices. Depending on coverage needs, up to 384 libraries can be pooled for one MiSeq run.
@@ -885,9 +892,9 @@ Illumina recommends quantifying your libraries using a fluorometric quantificati
 ### DNA Concentration in nM
 After determining the fragment size and concentration of your pooled product, you will calculate the DNA concentration in nM, based on the size of DNA amplicons as determined by an Agilent Technologies 2100 Bioanalyzer trace and concentration by Qubit:
 
-###### (concentration in ng/μl) * (10^6) / (660g/mol) * (average library size) = concentration in nM
+`(concentration in ng/μl) \* (10^6) \/ (660g/mol) \* (average library size) = concentration in nM`
 
-###### For example:
+__For example:
 ###### (15ng/μl) x (10^6) / (660g/mol) x (500bp) = 45 nM
 
 ### **Agilent Technologies Agilent D5000 ScreenTape System** 
@@ -1012,7 +1019,8 @@ V1  = 1.78 μl of sample + 18.22 μl of RSB produces
 ##### SAFE STOPPING POINT
 If you do not plan to proceed to Library Denaturing and MiSeq Sample Loading on page 27, leave your sample in 4°C. 
 
-## Library Denaturing and MiSeq Sample Loading <a id="chapter-13"></a>
+<a id="chapter-13"></a>
+## Library Denaturing and MiSeq Sample Loading 
 In preparation for cluster generation and sequencing, pooled libraries are denatured with NaOH, diluted with hybridization buffer, and then heat denatured before MiSeq sequencing. Each run must include a minimum of 5% PhiX to serve as an internal control for these low-diversity libraries. Illumina recommends using MiSeq v2 reagent kits for improved run metrics.
 
 #### Consumables
