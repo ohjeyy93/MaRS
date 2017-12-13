@@ -141,48 +141,48 @@ Equipment | Supplier
 **NOTE: The hands-on times are based on using 96-well format plates for each step.**
 
 #### PET-PCR Sample Quality Check \[Sample QC]
-Real-time PCR hands-on time 30 min / 96 samples; Cycle time 1.2 hours
-Reagents: Primers, 2X ABI TaqMan buffer, DNase PCR free water
+Real-time PCR hands-on time 30 min / 96 samples; Cycle time 1.2 hours  
+Reagents: Primers, 2X ABI TaqMan buffer, DNase PCR free water  
 
 #### PCR reaction to generate amplicons \[Amplification]
-PCR hands-on time 30 min / 96 samples; Cycle time 2.5 hours
-Reagents: 10uM Primers, HF Phusion Taq, 5X GC Buffer, 10mM dNTPs, DNase PCR free water
+PCR hands-on time 30 min / 96 samples; Cycle time 2.5 hours  
+Reagents: 10uM Primers, HF Phusion Taq, 5X GC Buffer, 10mM dNTPs, DNase PCR free water  
 
 #### Analysis of PCR amplicons \[Electrophoresis]
-PCR amplicon electrophoresis hands-on time 10 min / 8 samples; Gel running time 30 min
-If < 20 samples, run all samples on the gel; If > 20 samples, pick 20 samples with varying CT values and run on the gel 
-Reagents: Agarose, DNA loading dye, 1kb DNA ladder, 1X TBE Buffer
+PCR amplicon electrophoresis hands-on time 10 min / 8 samples; Gel running time 30 min  
+If < 20 samples, run all samples on the gel; If > 20 samples, pick 20 samples with varying CT values and run on the gel   
+Reagents: Agarose, DNA loading dye, 1kb DNA ladder, 1X TBE Buffer  
 
 #### PCR amplicons clean up \[Purification]
-Hands on time 35 min / 96 samples; Total time 90 min / 8 samples
-Reagents: SequalPrep Normalization Binding Buffer, SequalPrep Normalization Wash, SequalPrep Normalization Elution Buffer
+Hands on time 35 min / 96 samples; Total time 90 min / 8 samples  
+Reagents: SequalPrep Normalization Binding Buffer, SequalPrep Normalization Wash, SequalPrep Normalization Elution Buffer  
 
 #### Tagment Genomic DNA
-Hands on time 30 min / 96 samples; Total time 17 min / 8 samples
-Reagents: ATM, TD, NT
+Hands on time 30 min / 96 samples; Total time 17 min / 8 samples  
+Reagents: ATM, TD, NT  
 
-*\[optional]* To assess tagmentation, run 1μL sample on Agilent Bioanalyzer 2X and/or TapeStation 2X using High Sensitivity DNA chip
+*\[optional]* To assess tagmentation, run 1μL sample on Agilent Bioanalyzer 2X and/or TapeStation 2X using High Sensitivity DNA chip  
 
 #### Library Amplification
-Hands on time 35 min / 96 samples; Cycle time 38 min / 96 samples
-Reagents: NPM, Index 1 primers, Index 2 primers
+Hands on time 35 min / 96 samples; Cycle time 38 min / 96 samples  
+Reagents: NPM, Index 1 primers, Index 2 primers  
 
 #### Library Clean-up \[Purification]
-Hands on time 30 min / 96 samples; Total time 40+ min / 96 samples
-Reagents: AMPure XP beads, fresh 80% EtOH
+Hands on time 30 min / 96 samples; Total time 40+ min / 96 samples  
+Reagents: AMPure XP beads, fresh 80% EtOH  
 
 #### Library Pooling, Quantification, and Normalization
-Hands on time 30+ min / 96 samples; Total time 40+ min / 96 samples
-Reagents: Sample Buffer, D5000 Ladder, ScreenTape; Qubit dsDNA HS Buffer and Reagent, Standard #1 and #2
+Hands on time 30+ min / 96 samples; Total time 40+ min / 96 samples  
+Reagents: Sample Buffer, D5000 Ladder, ScreenTape; Qubit dsDNA HS Buffer and Reagent, Standard #1 and #2  
 
 #### Library Denaturing and MiSeq Sample Loading
-Hands on time 30 min / pooled samples; Total time 30 min / pooled samples
-Reagents: Resuspension Buffer, HT1, 0.2N NaOH, PhiX Control Kit v3, 200mM Tris-HCl pH7.0
+Hands on time 30 min / pooled samples; Total time 30 min / pooled samples  
+Reagents: Resuspension Buffer, HT1, 0.2N NaOH, PhiX Control Kit v3, 200mM Tris-HCl pH7.0  
 
 #### Analysis of NGS data \[Analysis]
-Hands on time 5 min / 96 samples; Total time 15-25 min / 96 samples
-Method: MaRS analysis pipeline
-__*Standardized SNPs reports generated*__
+Hands on time 5 min / 96 samples; Total time 15-25 min / 96 samples  
+Method: MaRS analysis pipeline  
+__*Standardized SNPs reports generated*__  
 
 <a id="chapter-4"></a>
 ## PET-PCR Sample QC 
