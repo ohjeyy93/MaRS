@@ -1070,20 +1070,18 @@ Item |  Quantity |	Storage
           * Adding the HT1 results in a 20 pM denatured library in 1 mM NaOH.
 7. Place the denatured DNA on ice until you are ready to proceed to final dilution.
 
-##### Quick Review/Guide for denaturing 4nM library:
+### Quick Review/Guide for denaturing 4nM library:
 5 μl of 4nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0 
 
---> 
+**Equals**
 
 15 μl of 1.3nM library and 0.067N NaOH + 66.7nM Tris pH 7.0
 
-\+
+(Add 985 μl of chilled HT1)
 
-Add 985 μl of chilled HT1
+**Equals**
 
--->
-
-1mL of 0.001N NaOH and 20pM denatured library + 1mM Tris-HCl pH 7.0
+1mL of **0.001N NaOH** and 20pM denatured library + 1mM Tris-HCl pH 7.0
 
 **NOTE: If you have to start with a lower concentration library, follow the below protocol for denaturing a 2nM library.**
 
