@@ -1086,7 +1086,7 @@ Item |  Quantity |	Storage
            
 **NOTE: If you have to start with a lower concentration library, follow the below protocol for denaturing a 2nM library.**
 
-##### Quick Review/Guide for denaturing 2nM library:
+### Quick Review/Guide for denaturing 2nM library:
              5 μl of 2nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0 
 
                                        Equals
@@ -1105,7 +1105,7 @@ Desired Final Concentration | 6pM | 8pM | 10pM
 **10pM denatured library** | 360 μl | 480 μl | 600 μl 
 **Pre-chilled HT1** | 240 μl | 120 μl | 0 μl 
 
-##### Dilute Denatured DNA
+#### Dilute Denatured DNA
 
 1. Dilute the denatured DNA to the desired concentration using the following table. Illumina recommends targeting 1000–1200 K/mm² raw cluster densities using MiSeq v2 reagents. 
 
@@ -1118,7 +1118,7 @@ Final Concentration | 2pM | 4pM | 6pM | 8pM | 10pM | 12pM | 15pM | 20pM
 2. Invert several times to mix and then pulse centrifuge the DNA solution.
 3. Place the denatured and diluted DNA on ice.
 
-##### Denature and Dilution of PhiX Control
+### Denature and Dilution of PhiX Control
 Use the following instructions to denature and dilute the 10 nM PhiX library to the same loading concentration as the Amplicon library. The final library mixture must contain at least 5% PhiX.
 
 1. Combine the following volumes to dilute the PhiX library to 4 nM:
@@ -1144,7 +1144,7 @@ Final Concentration | 2pM | 4pM | 6pM | 8pM | 10pM | 12pM | 15pM | 20pM
 8. Invert several times to mix and then pulse centrifuge the DNA solution.
 9. Place the denatured and diluted PhiX on ice.
 
-##### Combine Amplicon Library and PhiX Control
+### Combine Amplicon Library and PhiX Control
 The recommended PhiX control spike‐in of ≥ 5% for low diversity libraries is possible with RTA v1.17.28 or later, which is bundled with MCS v2.2. For optimal performance, update to v3 software (MCS 2.3). If you are using an older version of the MiSeq software or sequencing these libraries on the GA or HiSeq, Illumina recommends using ≥ 25% PhiX control spike‐in.
 
 1. Combine the following volumes of denatured PhiX control library and your denatured amplicon library in a microcentrifuge tube, which results in a 5% spike-in of PhiX:
@@ -1208,18 +1208,19 @@ Plex |  Index 1 (i7) Selection |	Index 2 (i5) Selection
 
 These strategies represent only some of the acceptable combinations. Alternatively, check the real sequences of each index in the tables to make sure that each base position has a signal in both color channels for the index read:
 
-####
-Plex |  Index 1 (i7) Selection |	Index 2 (i5) Selection
----------------| -----------------------| ------------------
-**7-12 plex, Dual Index** |	[option 1] N701, N702, N704, and any other Index 1 adapter (as needed); [option 2] N703, N705, N706, and any other Index 1 adapter (as needed) | [option 1] S501 and S502; [option 2] S503 and S504; [option 3] S505 and S506
-**7-12 plex Single Index (96 sample Nextera Index Adapter kit)** | N701 - N706 and any other Index 1 adapter (as needed) | Any Index 2 (i5) adapter
-**Greater than 12-plex** |	N701, N702, N703, N704, N705, N706, and any other Index 1 adapter | [option 1] S501, S502, and any other Index 2 adapter (as needed); [option 2] S503, S504, and any other Index 2 adapter (as needed); [option 3] S505, S506, and any other Index 2 adapter (as needed)
+|Good | Bad|
+| Good Index 1 | Good Index 2 | Bad Index 1 | Bad Index 2 |
+| :------: | :------: | :------: | :------: |
+| 705  GGACTCCT | 503  TATCCTCT | 705  GGACTCCT | 502  CTCTCTAT |
+| 706  TAGGCATG | 503  TATCCTCT | 706  TAGGCATG | 502  CTCTCTAT |
+| 701  TAAGGCGA | 504  AGAGTAGA | 701  TAAGGCGA | 503  TATCCTCT |
+| 702  CGTACTAG | 504  AGAGTAGA | 702  CGTACTAG | 503  TATCCTCT |
+|      √√√√√√√√ |       √√√√√√√√ |      √√√√√√√√ |        √√√√√√√√ |
 
-####
-Good Index 1 | Good Index 2 | Bad Index 1 | Bad Index 2
------- | ------ | ------ | ------
-705  GGACTCCT | 503  TATCCTCT | 705  GGACTCCT | 502 CTCTCTAT
-706  TAGGCATG | 503  TATCCTCT | 706  TAGGCATG | 502 CTCTCTAT
+√=signal in both color
+x=signal missing in one color channel
+(*italicized base* = color red)
+(non-italicized base = color green)
 
 ### Prevent PCR Product Contamination
 The PCR process is commonly used in the laboratory to amplify specific DNA sequences. Unless proper laboratory hygiene is used, PCR products can contaminate reagents, instrumentation, and genomic DNA samples, causing inaccurate and unreliable results. PCR product contamination can shut down lab processes and significantly delay normal operations.
