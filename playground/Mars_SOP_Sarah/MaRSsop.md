@@ -892,7 +892,9 @@ Illumina recommends quantifying your libraries using a fluorometric quantificati
 ### DNA Concentration in nM
 After determining the fragment size and concentration of your pooled product, you will calculate the DNA concentration in nM, based on the size of DNA amplicons as determined by an Agilent Technologies 2100 Bioanalyzer trace and concentration by Qubit:
 
-`(concentration in ng/μl) \* (10^6) \/ (660g/mol) \* (average library size) = concentration in nM`
+```
+(concentration in ng/μl) * (10^6) / (660g/mol) * (average library size) = concentration in nM
+```
 
 __For example:
 ###### (15ng/μl) x (10^6) / (660g/mol) x (500bp) = 45 nM
