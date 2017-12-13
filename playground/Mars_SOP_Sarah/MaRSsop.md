@@ -897,6 +897,7 @@ After determining the fragment size and concentration of your pooled product, yo
 ```
 
 _For example:_
+
 (15ng/μl) x (10^6) / (660g/mol) x (500bp) = 45 nM
 
 ### **Agilent Technologies Agilent D5000 ScreenTape System** 
@@ -1009,14 +1010,14 @@ Item |  Quantity |	Storage
 7. Insert a sample tube into the sample chamber, close the lid, and press Read tube. When the reading is complete (~3 seconds), remove the sample tube and repeat until all samples have been read. 
 
 ### **Part III:** Normalization
-Dilute concentrated final library using Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to 4 nM. 
+Dilute concentrated final library using Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to **4 nM**. 
 
 Example:
-Given a calculated concentration of 45nM, use C1V1=C2V2 to calculate how much RSB and sample to mix to create a 4nM concentration:
+Given a calculated concentration of 45nM, use C<sub>1</sub>V<sub>1</sub>=C<sub>2</sub>V<sub>2</sub> to calculate how much RSB and sample to mix to create a 4nM concentration:
 
-45nM (V1 )= 4nM (20 μl)
+45nM (V<sub>1</sub>)= 4nM (20 μl)
 
-V1  = 1.78 μl of sample + 18.22 μl of RSB produces 
+V<sub>1</sub>  = 1.78 μl of sample + 18.22 μl of RSB produces 
 
 ##### SAFE STOPPING POINT
 If you do not plan to proceed to Library Denaturing and MiSeq Sample Loading on page 27, leave your sample in 4°C. 
