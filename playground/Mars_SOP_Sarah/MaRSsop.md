@@ -147,7 +147,7 @@ Reagents: Primers, 2X ABI TaqMan buffer, DNase PCR free water
 PCR hands-on time 30 min / 96 samples; Cycle time 2.5 hours
 Reagents: 10uM Primers, HF Phusion Taq, 5X GC Buffer, 10mM dNTPs, DNase PCR free water
 
-#### Analysis of PCR amplicons \[Electrophoresis\]
+#### Analysis of PCR amplicons \[Electrophoresis]
 PCR amplicon electrophoresis hands-on time 10 min / 8 samples; Gel running time 30 min
 If < 20 samples, run all samples on the gel; If > 20 samples, pick 20 samples with varying CT values and run on the gel 
 Reagents: Agarose, DNA loading dye, 1kb DNA ladder, 1X TBE Buffer
@@ -255,7 +255,7 @@ The table below shows the primers and PCR conditions for a multiplex reaction- G
 **P. falciparum Rev (5' to 3'):** 5’-agg cgg ata ccg cct ggT CGG GCC CCA AAA ATA GGA A-3’ **(HEX-labeled: based on the r364 target)**
 
 
-#####**Adding the DNA Samples**
+##### Adding the DNA Samples
 
 1. Mix the prepared master-mix well by vortexing briefly.
 2. Centrifuge the tubes for 5 seconds to remove any solution trapped in the cap.
@@ -271,14 +271,14 @@ The table below shows the primers and PCR conditions for a multiplex reaction- G
 
 **NOTE:** *The amount of template DNA to be used can be as low as 2μL, but it is not uncommon to use 5μL.  This can be adjusted appropriately depending on the sample parasitemia. The change should be discussed before it is implemented.*
 
-#####**PCR-Cycling Parameters**
+##### PCR-Cycling Parameters
 
 1. Start the real-time PCR thermocycler according to the manufacturer’s guidelines.
 2. Program the software to detect fluorescence through FAM, HEX and ROX filters all wells. ROX is to be detected as a reference dye.
 3. Program the software to run the cycling conditions shown on page 7.
 4. Fluorescence data should be collected at the amplification plateau.
 
-#####**Interpreting Results**
+##### Interpreting Results
 
 1. Interpret the results using standard settings in the software.
 2. If the calculated thresholds are located within the background noise, they should be manually set to a level slightly higher than the background. Such alterations should be done with only one dye displayed at the time.
@@ -292,10 +292,10 @@ The table below shows the primers and PCR conditions for a multiplex reaction- G
 Lucchi, N.W., et al., Molecular diagnosis of malaria by photo-induced electron transfer fluorogenic primers: PET-PCR. *PLoS One*, 2013. 8(2): p. e56677.
 
 ## Gene PCR Enrichment <a id="chapter-5"></a>
-#####This step uses PCR to amplify template from a DNA sample using region of interest-specific primers.
+##### This step uses PCR to amplify template from a DNA sample using region of interest-specific primers.
 User‐defined forward and reverse primers are used to amplify templates from genomic DNA. A subsequent limited‐cycle amplification step is performed to add multiplexing indices and Illumina sequencing adapters. Libraries are normalized and pooled, and sequenced on the MiSeq system using v2 reagents.
 
-####Procedure 
+#### Procedure 
 **Initial Set up**
 - Ensure that the No-DNA and DNA-only UV stations have all the appropriate pipettes and tip sizes.
 - Clean up all pipettes and lab bench area using using 10% bleach followed by 70% ethanol.
