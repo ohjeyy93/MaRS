@@ -255,7 +255,7 @@ The table below shows the primers and PCR conditions for a multiplex reaction- G
 **P. falciparum Rev (5' to 3'):** 5’-agg cgg ata ccg cct ggT CGG GCC CCA AAA ATA GGA A-3’ **(HEX-labeled: based on the r364 target)**
 
 
-##### Adding the DNA Samples
+#### Adding the DNA Samples
 
 1. Mix the prepared master-mix well by vortexing briefly.
 2. Centrifuge the tubes for 5 seconds to remove any solution trapped in the cap.
@@ -271,14 +271,14 @@ The table below shows the primers and PCR conditions for a multiplex reaction- G
 
 **NOTE:** *The amount of template DNA to be used can be as low as 2μL, but it is not uncommon to use 5μL.  This can be adjusted appropriately depending on the sample parasitemia. The change should be discussed before it is implemented.*
 
-##### PCR-Cycling Parameters
+#### PCR-Cycling Parameters
 
 1. Start the real-time PCR thermocycler according to the manufacturer’s guidelines.
 2. Program the software to detect fluorescence through FAM, HEX and ROX filters all wells. ROX is to be detected as a reference dye.
 3. Program the software to run the cycling conditions shown on page 7.
 4. Fluorescence data should be collected at the amplification plateau.
 
-##### Interpreting Results
+#### Interpreting Results
 
 1. Interpret the results using standard settings in the software.
 2. If the calculated thresholds are located within the background noise, they should be manually set to a level slightly higher than the background. Such alterations should be done with only one dye displayed at the time.
