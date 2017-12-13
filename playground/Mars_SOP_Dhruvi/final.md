@@ -109,19 +109,20 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 **Table6.3a *Cytochrome b***
 
-|*Pfcytb 1 (937bp)*	  | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
-|:------------------:|:--------------:|:-------------:|:--------------:-|
+
+|*Pfcytb 1 (937bp)*	 | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
+|:------------------:|:--------------:|:-------------:|:--------------:|
 | *Master Mix:*      |                                                                                                 	                                                       
-| *5X GC Buffer*    | 	*10.0 μl*|                  | *1 x*|
-| *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
-| *F primer (10uM)* |	*1.25 μl*	 |                  | *0.25 uM*|
-| *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
- |*H<sub>2</sub>O*|  *32 μl*   |                  |         |
- |**Add last:** 	  |            |                  |         |
- |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
- |*Total*	          | **46.0μl** |                  |           |
- |**Add:**		      |            |                   ||
-| *Template DNA*	  |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
+| *5X GC Buffer*     | 	*10.0 μl*      |                  | *1 x*|
+| *dNTPs (10mM)*	   |   *1 μl*	     |                  | *0.2 mM*|
+| *F primer (10uM)*  |	*1.25 μl*	  |                  | *0.25 uM*|
+| *R primer (10uM)*	 |  *1.25 μl*  |                  |*0.25 uM*|
+| *H<sub>2</sub>O*    |  *32 μl*   |                  |         |
+ |**Add last:** 	   |             |                  |         |
+ |*HF Phusion Taq*   |	  *0.5μl*  |                  |*1 unit*|
+ |*Total*	           | **46.0μl**  |                  |           |
+ |**Add:**		       |             |                   ||
+ | *Template DNA*	   |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
  |**TOTAL**	          |**50.0 μl**	 |	                 |          |
 
 |Thermal  |cycling  |conditions|
@@ -346,7 +347,7 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 ## Tagment Genomic DNA
   This step uses the Nextera transposome to tagment gDNA, which fragments and then tags the DNA with adaptor sequences in a single step. 
 
-_______________________________________**figure1**_________________________________
+![alt text](https://github.com/CDCgov/MaRS/blob/master/images/Nextera.png)
 
 
 
@@ -384,9 +385,7 @@ _______________________________________**figure1**______________________________
 2.	Add 5 μl ATM to each well. Pipette to mix.
 3.	Centrifuge at 280 × g at 20°C for 1 minute.
 4.	Place on the preprogrammed thermal cycler and run the tagmentation program
-	***Thermocycler Program:***
-	***55 °C for 5 min*** 
-	***10 °C for ∞***
+	***Thermocycler Program:*** ***55 °C for 5 min***, ***10 °C for ∞***
 	
   **NOTE:** Be sure to remove the plate as soon as the reaction has completed- NT must be added to the well immediately after the reaction has completed in order to stop the reaction.  
 
@@ -407,8 +406,8 @@ This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR
 |**NPM (Nextera PCR Master Mix)**	                                                               |15 μl per sample  |	-15° to -25°C   |
 |**Nextera XT Index 1 Primers (N7XX) from the Nextera XT Index kit (FC-131-1001 or FC-131-1002)**|5 μl per sample   |	-15° to -25°C   |
 |**Nextera XT Index 2 Primers (S5XX) from the Nextera XT Index kit (FC-131-1001 or FC-131-1002)**|5 μl per sample	  |-15° to -25°C    |
-|**96-well 0.2 ml PCR plate	 **                                                                  |1 plate           |	Room temperature|
-|**Microseal “A” film **                                                                        	|1	              |Room temperature|
+|**96-well 0.2 ml PCR plate**                                                                   |1 plate           |	Room temperature|
+|**Microseal “A” film**                                                                        	|1	              |Room temperature|
 
 
 ### Procedure
@@ -419,7 +418,16 @@ This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR
 
 *\* If no TruSeq Index Plate Fixture is available, arrange the Index adaptors in the same way, and individually pipette each adaptor into its corresponding well*
 
-_________________________________________**figure2**_______________________________________________
+Figure 2 TrueSeq Index Plate Fixture
+
+![alt text](https://github.com/CDCgov/MaRS/blob/master/images/TruSeqIndex.png)             
+
+A Index 2 primers (white caps)
+B Index 1 primers (orange caps)
+C 96‐well plate
+
+
+
 
 3. 	Place the 96‐well PCR plate with the 25 μl of resuspended PCR product DNA in the TruSeq Index Plate Fixture. 
     -	Add 5 μl of each index into its corresponding well. 
@@ -434,8 +442,8 @@ _________________________________________**figure2**____________________________
         * 95°C for 10 seconds
         * 55°C for 30 seconds
         * 72°C for 30 seconds
-	  * 72°C for 5 minutes
- 	  * Hold at 10°C
+    * 72°C for 5 minutes
+    * Hold at 10°C
 8.	If you choose to continue, proceed to PCR Clean-up 2
 
 
@@ -450,9 +458,9 @@ This step uses AMPure XP beads to clean up the final library before quantificati
 
 **Table 11. PCR Purification #2 Consumables**
 
-|Item	                                  |Quantity	                 |Storage                                                  |
-|:--------------------------------------:|:-------------------------:|:--------------------------------------------------------:|
-|**RSB (Resuspension Buffer)**          |	52.5 μl per sample|-15° to -25°C (after initial thaw, can keep at 2° to 8°C|
+|Item	                                  |Quantity	                 |Storage                                            |
+|:--------------------------------------|:-------------------------|:--------------------------------------------------------|
+|**RSB (Resuspension Buffer)**          |	52.5 μl per sample|-15° to -25°C (after initial thaw, can keep at 2° to 8°C)|
 |**AMPure XP beads**                    |	90 μl per 50 μl of sample|	2° to 8°C|
 |**Freshly Prepared 80% Ethanol (EtOH)**|	400 μl per sample|	Room temperature|
 |**96‐well 0.2 ml PCR plate**           |	1 plate                  |                                                         |
@@ -483,8 +491,7 @@ This step uses AMPure XP beads to clean up the final library before quantificati
 3. 	Gently shake the AMPure XP beads for 30 seconds to make sure that the beads are evenly dispersed. Add an appropriate volume of beads to a trough depending on the number of samples being processed and desired fragment selection. Smaller amplicons in Nextera XT library preps typically yield smaller insert size ranges. 
 To maximize recovery of smaller fragments from the bead cleanup step, use the following conditions: 
 
-____________________________________________________**figure to be included**_____________________________________________________
-
+![alt text](https://github.com/CDCgov/MaRS/blob/master/images/AMPure.png)
 
 4. 	Using a multichannel pipette, add 90 μl of AMPure XP beads to each well of the Amplicon PCR plate. Change tips between columns. 
 5. 	Gently pipette entire volume up and down 10 times if using a 96‐well PCR plate, or seal plate and shake at 1800 for 2 minutes if using a MIDI plate. Change tips after each column. The mixture should appear homogeneous. 
@@ -495,26 +502,26 @@ ____________________________________________________**figure to be included**___
 	**DO NOT disturb the ring of separated magnetic beads.** 
 	
 9. 	With the Library amplification plate on the magnetic stand, wash the beads with freshly prepared 80% ethanol as follows:
-    a. Using a multichannel pipette, add 200 μl of freshly prepared 80% ethanol to each sample well.
-    b. Incubate the plate on the magnetic stand for 30 seconds at room temperature.
-    c. Carefully remove and discard the ethanol. 
+        a. Using a multichannel pipette, add 200 μl of freshly prepared 80% ethanol to each sample well.
+        b. Incubate the plate on the magnetic stand for 30 seconds at room temperature.
+        c. Carefully remove and discard the ethanol. 
     
    **Note: The beads are not drawn out easily when in alcohol, so it is not necessary to leave any supernatant behind.**
 
-10. With the Library amplification plate on the magnetic stand, perform a second ethanol wash as follows:
-    a. Using a multichannel pipette, add 180 μl of freshly prepared 80% ethanol to each sample well.
-    b. Incubate the plate on the magnetic stand for 30 seconds.
-    c. Carefully remove and discard all the ethanol.
-    d. Use a P20 multichannel pipette with fine pipette tips to remove excess ethanol.
-11. With the Library amplification plate still on the magnetic stand, allow the beads to air‐dry for 15 minutes.
+10.     With the Library amplification plate on the magnetic stand, perform a second ethanol wash as follows:
+        a. Using a multichannel pipette, add 180 μl of freshly prepared 80% ethanol to each sample well.
+        b. Incubate the plate on the magnetic stand for 30 seconds.
+        c. Carefully remove and discard all the ethanol.
+        d. Use a P20 multichannel pipette with fine pipette tips to remove excess ethanol.
+11.     With the Library amplification plate still on the magnetic stand, allow the beads to air‐dry for 15 minutes.
     
   **NOTE: make sure not to over dry the beads. Bead pellets will appear cracked if over dried.** 
   
-12. Remove the Amplicon PCR plate from the magnetic stand. Using a multichannel pipette, add 52.5 μl RSB to each well of the Amplicon PCR plate.
-13. Gently pipette mix up and down 10 times, or seal plate and shake at 1800 for 2 minutes if using a MIDI plate. Change tips after each column. 
-14. Incubate at room temperature for 2 minutes.
-15. Place the plate back on the magnetic stand for 2 minutes or until the supernatant has cleared.
-16. Using a multichannel pipette, carefully transfer 50 μl of the supernatant from the Library amplification plate to a new 96‐well PCR plate. Change tips between samples to avoid cross‐contamination.
+12.    Remove the Amplicon PCR plate from the magnetic stand. Using a multichannel pipette, add 52.5 μl RSB to each well of the Amplicon PCR plate.
+13.    Gently pipette mix up and down 10 times, or seal plate and shake at 1800 for 2 minutes if using a MIDI plate. Change tips after each column. 
+14.    Incubate at room temperature for 2 minutes.
+15.    Place the plate back on the magnetic stand for 2 minutes or until the supernatant has cleared.
+16.    Using a multichannel pipette, carefully transfer 50 μl of the supernatant from the Library amplification plate to a new 96‐well PCR plate. Change tips between samples to avoid cross‐contamination.
 
 
 **SAFE STOPPING POINT**
