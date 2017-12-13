@@ -1071,9 +1071,8 @@ Item |  Quantity |	Storage
 7. Place the denatured DNA on ice until you are ready to proceed to final dilution.
 
 ### Quick Review/Guide for denaturing 4nM library:
-|:----------:|
 
-: 5 μl of 4nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0 :
+<center>5 μl of 4nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0</center>
 
 **Equals**
 
