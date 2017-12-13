@@ -1238,13 +1238,13 @@ Make sure that the lab is set up appropriately to reduce the risk of PCR product
 
 Because the pre‐ and post‐amplification reagents are shipped together, it is important to unpack the reagents in the pre‐PCR lab area. After unpacking the reagents, move the post-amplification reagents to the proper post‐PCR storage area.
 
-#### Pre‐PCR and Post‐PCR Lab Procedures
+### Pre‐PCR and Post‐PCR Lab Procedures
 To prevent PCR product contamination, it is important to establish lab procedures and follow best practices. Illumina recommends daily and weekly cleaning of lab areas using 0.5% Sodium Hypochlorite (10% Bleach).
 
 ###### CAUTION
 To prevent sample or reagent degradation, make sure that all vapors from the cleaning solution have fully dissipated before beginning any processes.
 
-#### Daily Cleaning of Pre‐PCR Area
+### Daily Cleaning of Pre‐PCR Area
 A daily cleaning of the pre‐PCR area using a 0.5% Sodium Hypochlorite (10% Bleach) solution helps to eliminate PCR product that has entered the pre‐PCR area. Identify pre‐PCR areas that pose the highest risk of contamination, and clean these areas with a 0.5% Sodium Hypochlorite (10% Bleach) solution before beginning any pre‐PCR processes. 
 High‐risk areas might include, but are not limited to, the following items:
 
@@ -1254,7 +1254,7 @@ High‐risk areas might include, but are not limited to, the following items:
 * Computer mouse
 * Keyboards
 
-#### Daily Cleaning of Post‐PCR Area
+### Daily Cleaning of Post‐PCR Area
 Reducing the amount of PCR product in the post‐PCR area helps reduce the risk of contamination in the pre‐PCR area. Daily cleaning of the post‐PCR area using a 0.5% Sodium Hypochlorite (10% Bleach) solution helps reduce the risk of contamination. Identify post‐PCR areas that pose the highest risk of contamination, and clean these areas with a 0.5% Sodium Hypochlorite (10% Bleach) solution daily. 
 High‐risk areas might include, but are not limited to, the following items:
 
@@ -1265,7 +1265,7 @@ High‐risk areas might include, but are not limited to, the following items:
 * Computer mouse
 * Keyboards
 
-#### Weekly Cleaning of All Lab Areas
+### Weekly Cleaning of All Lab Areas
 One time a week, perform a thorough cleaning of the pre‐PCR and post‐PCR areas using 0.5% Sodium Hypochlorite (10% Bleach).
 
 * Clean all benchtops and laboratory surfaces.
@@ -1273,7 +1273,7 @@ One time a week, perform a thorough cleaning of the pre‐PCR and post‐PCR are
 * Thoroughly mop lab floors.
 * Make sure that personnel responsible for weekly cleaning are properly trained on prevention of PCR product contamination.
 
-####  Items Fallen to the Floor
+###  Items Fallen to the Floor
 The floor is contaminated with PCR product transferred on the shoes of individuals coming from the post‐PCR area; therefore, anything falling to the floor must be treated as contaminated.
 
 * Disposable items that have fallen to the floor, such as empty tubes, pipette tips, gloves, lab coat hangers, must be discarded.
@@ -1283,7 +1283,7 @@ The floor is contaminated with PCR product transferred on the shoes of individua
 ### Best Practices
 When preparing libraries for sequencing, always adhere to good molecular biology practices. Read through the entire protocol before starting to make sure that all of the required materials are available and your equipment is programmed and ready to use.
 
-#### Handling Liquids
+### Handling Liquids
 Good liquid handling measures are essential, particularly when quantifying libraries or diluting concentrated libraries for making clusters.
 
 * Small differences in volumes (±0.5 μl) can sometimes cause large differences in cluster numbers (~100,000).
@@ -1292,7 +1292,7 @@ Good liquid handling measures are essential, particularly when quantifying libra
 * Make sure that pipettes are not used at the volume extremes of their performance specifications. 
 * Prepare the reagents for multiple samples simultaneously, to minimize pipetting errors, especially with small volume enzyme additions. As a result, pipette one time from the reagent tubes with a larger volume, rather than many times with small volumes. Aliquot to individual samples in a single pipetting movement to allow for standardization across multiple samples.
 
-#### Handling Magnetic Beads
+### Handling Magnetic Beads
 NOTE Cleanup procedures have only been validated using the 96‐well plates and the magnetic stand specified in Tables 1 and 2.
 
 Comparable performance is not guaranteed when using a microcentrifuge tube or other formats, or other magnets.
@@ -1313,7 +1313,7 @@ Comparable performance is not guaranteed when using a microcentrifuge tube or ot
 * Do not scrape the beads from the edge of the well using the pipette tip.
 * To maximize sample recovery during elution, incubate the sample/bead mix for 2 minutes at room temperature before placing the samples onto the magnet.
 
-#### Avoiding Cross‐Contamination
+### Avoiding Cross‐Contamination
 Practice the following to avoid cross‐contamination:
 
 * Open only one adapter tube at a time.
@@ -1322,17 +1322,17 @@ Practice the following to avoid cross‐contamination:
 * Clean pipettes and change gloves between handling different adapter stocks.
 * Clean work surfaces thoroughly before and after the procedure.
 
-#### Potential DNA Contaminants
+### Potential DNA Contaminants
 
 When handling and processing samples using this protocol, use best practices to avoid PCR contamination, as you would when preparing PCR amplicons.
 
-#### Temperature Considerations
+### Temperature Considerations
 Temperature is an important consideration for making libraries:
 
 * Keep libraries at temperatures ≤37°C, except where specifically noted.
 * Place reagents on ice after thawing at room temperature.
 
-#### Equipment
+### Equipment
 
 * Review the programming instructions for your thermal cycler user guide to make sure that it is programmed appropriately using the heated lid function.
 * It is acceptable to use the thermal cycler tracked heating lid function.
