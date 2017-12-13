@@ -1217,10 +1217,10 @@ These strategies represent only some of the acceptable combinations. Alternative
 | 702  **C**GT**AC**T**A**G | 504  **A**G**A**GT**A**G**A** | 702  **C**GT**AC**T**A**G | 503  T**A**T**CC**T**C**T |
 |      √√√√√√√√ |       √√√√√√√√ |      √√√√√√√√ |        √√√√xxxx |
 
-√=signal in both color
-x=signal missing in one color channel
-(**bolded base** = color red)
-(non-bolded base = color green)
+√=signal in both color  
+x=signal missing in one color channel  
+(**bolded base** = color red)  
+(non-bolded base = color green)  
 
 ### Prevent PCR Product Contamination
 The PCR process is commonly used in the laboratory to amplify specific DNA sequences. Unless proper laboratory hygiene is used, PCR products can contaminate reagents, instrumentation, and genomic DNA samples, causing inaccurate and unreliable results. PCR product contamination can shut down lab processes and significantly delay normal operations.
