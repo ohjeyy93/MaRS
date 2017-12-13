@@ -1072,34 +1072,32 @@ Item |  Quantity |	Storage
 
 ### Quick Review/Guide for denaturing 4nM library:
 
-           5 μl of 4nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0
+           5 μl of 4nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH 7.0
 
-                                       **Equals**
+                                       Equals
 
                  15 μl of 1.3nM library and 0.067N NaOH + 66.7nM Tris pH 7.0
 
                               (Add 985 μl of chilled HT1)
 
-                                       **Equals**
+                                       Equals
 
-           1mL of **0.001N NaOH** and 20pM denatured library + 1mM Tris-HCl pH 7.0
-
+           1mL of 0.001N NaOH and 20pM denatured library + 1mM Tris-HCl pH 7.0
+           
 **NOTE: If you have to start with a lower concentration library, follow the below protocol for denaturing a 2nM library.**
 
 ##### Quick Review/Guide for denaturing 2nM library:
-5 μl of 2nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0 
+             5 μl of 2nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0 
 
---> 
+                                       Equals
 
-15 μl of 0.67nM library and 0.067N NaOH + 66.7nM Tris pH 7.0
+                15 μl of 0.67nM library and 0.067N NaOH + 66.7nM Tris pH 7.0
 
-\+
+                             (Add 985 μl of chilled HT1)
 
-Add 985 μl of chilled HT1
+                                       Equals
 
--->
-
-1mL of 0.0005N NaOH and 10pM denatured library + 1mM Tris-HCl pH 7.0
+              1mL of 0.0005N NaOH and 10pM denatured library + 1mM Tris-HCl pH 7.0
 
 #### **Dilution chart for 10pM library:**
 Desired Final Concentration | 6pM | 8pM | 10pM 
