@@ -1208,16 +1208,16 @@ Plex |  Index 1 (i7) Selection |	Index 2 (i5) Selection
 
 These strategies represent only some of the acceptable combinations. Alternatively, check the real sequences of each index in the tables to make sure that each base position has a signal in both color channels for the index read:
 
-|Good | Bad|
+
 | Good Index 1 | Good Index 2 | Bad Index 1 | Bad Index 2 |
 | :------: | :------: | :------: | :------: |
 | 705  GGACTCCT | 503  TATCCTCT | 705  GGACTCCT | 502  CTCTCTAT |
 | 706  TAGGCATG | 503  TATCCTCT | 706  TAGGCATG | 502  CTCTCTAT |
 | 701  TAAGGCGA | 504  AGAGTAGA | 701  TAAGGCGA | 503  TATCCTCT |
 | 702  CGTACTAG | 504  AGAGTAGA | 702  CGTACTAG | 503  TATCCTCT |
-|      √√√√√√√√ |       √√√√√√√√ |      √√√√√√√√ |        √√√√√√√√ |
+|      \√\√\√\√\√\√\√\√ |       √√√√√√√√ |      √√√√√√√√ |        √√√√√√√√ |
 
-√=signal in both color
+\√=signal in both color
 x=signal missing in one color channel
 (*italicized base* = color red)
 (non-italicized base = color green)
