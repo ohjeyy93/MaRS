@@ -824,17 +824,17 @@ To maximize recovery of smaller fragments from the bead cleanup step, use the fo
 	**DO NOT disturb the ring of separated magnetic beads.** 
 	
 9.  With the Library amplification plate on the magnetic stand, wash the beads with freshly prepared 80% ethanol as follows:
-      a. Using a multichannel pipette, add 200 μl of freshly prepared 80% ethanol to each sample well.
-      b. Incubate the plate on the magnetic stand for 30 seconds at room temperature.
-      c. Carefully remove and discard the ethanol. 
+      * Using a multichannel pipette, add 200 μl of freshly prepared 80% ethanol to each sample well.
+      * Incubate the plate on the magnetic stand for 30 seconds at room temperature.
+      * Carefully remove and discard the ethanol. 
     
      **Note: The beads are not drawn out easily when in alcohol, so it is not necessary to leave any supernatant behind.**
 
 10. With the Library amplification plate on the magnetic stand, perform a second ethanol wash as follows:
-      a. Using a multichannel pipette, add 180 μl of freshly prepared 80% ethanol to each sample well.
-      b. Incubate the plate on the magnetic stand for 30 seconds.
-      c. Carefully remove and discard all the ethanol.
-      d. Use a P20 multichannel pipette with fine pipette tips to remove excess ethanol.
+      * Using a multichannel pipette, add 180 μl of freshly prepared 80% ethanol to each sample well.
+      * Incubate the plate on the magnetic stand for 30 seconds.
+      * Carefully remove and discard all the ethanol.
+      * Use a P20 multichannel pipette with fine pipette tips to remove excess ethanol.
 11. With the Library amplification plate still on the magnetic stand, allow the beads to air‐dry for 15 minutes.
     
     **NOTE: make sure not to over dry the beads. Bead pellets will appear cracked if over dried.** 
