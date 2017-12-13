@@ -859,9 +859,9 @@ If you do not plan to proceed to Library Clustering on page 24, seal the plate w
 ## Library Clustering <a id="chapter-11"></a>
 It is important to consider library size when preparing samples for cluster generation. Because the clustering process preferentially amplifies shorter libraries in a mixture of fragments, large libraries tend to cluster less efficiently than small libraries. The DNA concentration used for clustering can be adjusted to increase the cluster density of larger libraries.  Consider table 1 below:
 
-###**Library Denaturing and MiSeq Sample Loading\***
+### Library Denaturing and MiSeq Sample Loading
 
-#####**Guidelines for Optimal Cluster Density**
+##### Guidelines for Optimal Cluster Density
 
 **Average Library Size** |  **Conversion Factor** |	**DNA Concentration for Cluster Generation**
 -----------| ----------------| -----------------
@@ -871,21 +871,21 @@ It is important to consider library size when preparing samples for cluster gene
 *The values presented here are approximations, and exact values determined for each experiment may differ from these guidelines. The guidelines presented are applicable to Nextera DNA libraries and Nextera XT libraries that have not been normalized. 
 
 ## Library Pooling, Quantification, and Normalization <a id="chapter-12"></a>
-####This step requires three parts: 
-####**Part I** Pool libraries
-####**Part II** Quantification of fragment size and concentration to determine library concentration in nM
-####**Part III** Diluting your final library in Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to a 4 nM solution
-###**Part I:** Pooling
+#### This step requires three parts: 
+#### **Part I** Pool libraries
+#### **Part II** Quantification of fragment size and concentration to determine library concentration in nM
+#### **Part III** Diluting your final library in Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to a 4 nM solution
+### **Part I:** Pooling
 Aliquot 5 μl of diluted DNA from each library into a 1.5 microcentrifuge tube and mix aliquots for pooling libraries with unique indices. Depending on coverage needs, up to 384 libraries can be pooled for one MiSeq run.
 
-###**Part II:** Quantification
+### **Part II:** Quantification
 Illumina recommends quantifying your libraries using a fluorometric quantification method that uses dsDNA binding dyes.
 
 * In order to determine the fragment size, this laboratory adopted the Agilent D5000 ScreenTape System Quick Guide protocol from Agilent Technologies. 
 
 * In order to determine the library concentration, this laboratory adopted the Qubit® dsDNA HS Assay Kits protocol from Life Technologies. 
 
-###DNA Concentration in nM
+### DNA Concentration in nM
 After determining the fragment size and concentration of your pooled product, you will calculate the DNA concentration in nM, based on the size of DNA amplicons as determined by an Agilent Technologies 2100 Bioanalyzer trace and concentration by Qubit:
 
 ###### (concentration in ng/μl) * (10^6) / (660g/mol) * (average library size) = concentration in nM
@@ -893,25 +893,25 @@ After determining the fragment size and concentration of your pooled product, yo
 ###### For example:
 ###### (15ng/μl) x (10^6) / (660g/mol) x (500bp) = 45 nM
 
-###**Agilent Technologies Agilent D5000 ScreenTape System** 
+### **Agilent Technologies Agilent D5000 ScreenTape System** 
 This SOP format was adapted from the Agilent D5000 ScreenTape System Quick Guide protocol from Agilent Technologies. 
 
-####Consumables
-######**Table 12. TapeStation Consumables**
+#### Consumables
+###### **Table 12. TapeStation Consumables**
 Item |  Quantity |	Storage
 -----| --------| -------
 **Sample Buffer** |	10 μl per sample |	2°– 8° C
 **D5000 Ladder** | 	1 μl | 2°– 8° C
 **ScreenTape** |	Holds 16 samples per tape |	2°– 8° C
 
-####Procedure
+#### Procedure
 
-#####Prepare TapeStation System D5000
+##### Prepare TapeStation System D5000
 
 * Launch the 2200 TapeStation Controller Software.
 * Load single D5000 ScreenTape device and loading tips into the 2200 TapeStation instrument.
 
-#####Sample Preparation D5000 ScreenTape Assay   
+##### Sample Preparation D5000 ScreenTape Assay   
 1.	Allow reagents to equilibrate at room temperature for 30 minutes. 
 2.	Vortex mix before use.
 3.	Prepare ladder by mixing 10 μl D5000 Sample Buffer (green lid) with 1 μl D5000 Ladder (yellow lid) in a tube strip.
@@ -919,20 +919,20 @@ Item |  Quantity |	Storage
 5.	Spin down, then vortex using IKA vortexer and adaptor at 2000 rpm for 1 minute.
 6.	Spin down to position the sample at the bottom of the tube.
 
-#####Sample Analysis
+##### Sample Analysis
 1.	Load samples into the 2200 TapeStation instrument
 2.	Select the required samples on the 2200 TapeStation Controller Software.
 3.	Click Start and specify a filename with which to save your results. 
 
 
-#####SAFE STOPPING POINT
+##### SAFE STOPPING POINT
 If you do not plan to proceed to Part II Qubit Flurometer 3.0 dsDNA HS Assay on page 26, leave your sample in 4°C. 
 
-###Qubit Fluorometer 3.0 dsDNA HS Assay 
+### Qubit Fluorometer 3.0 dsDNA HS Assay 
 This SOP format was adapted from the Qubit® dsDNA HS Assay Kits protocol from Life Technologies. 
 
-####Consumables
-######**Table 13. Qubit 3.0 Fluorometer Consumables**
+#### Consumables
+###### **Table 13. Qubit 3.0 Fluorometer Consumables**
 Item |  Quantity |	Storage
 --------------| ---------------------| -------------
 **Qubit dsDNA HS Buffer** |	199 μl per sample for working solution |	Room temperature
@@ -941,15 +941,15 @@ Item |  Quantity |	Storage
 **Standard #2** |	10 μl per use  |	 2°– 8° C
 **Qubit™ Assay Tubes** |	1 per sample and 1 for each |	Room temperature
 
-####Before you begin 
+#### Before you begin 
 * The final volume in each tube must be 200 μl. 
 * Each standard tube requires 190 μl of Qubit working solution + 10 μl of the standard 
 * Each sample tube requires anywhere from 180–199 μl + the corresponding volume to complete the necessary 200 μl: this laboratory uses 195 μl working solution + 5 μl of sample
 * Careful pipetting is critical to ensure that the exact volume is added to the working solution—work SLOWLY
 * Be sure to use a clean plastic tube each time you prepare Qubit working solution.  Do not mix the working solution in a glass container 
 
-####Procedure
-#####Standard and Sample Preparation
+#### Procedure
+##### Standard and Sample Preparation
 1. Prepare the tubes:
 
      * Set up two (2) 0.5-mL tubes for standards, and the required number of tubes for samples. 
@@ -985,7 +985,7 @@ Sample Volume  | 1 μl | 5 μl | 10 μl | 15 μl | 20 μl
 
 5. Allow all tubes to incubate at room temperature for 2 minutes. 
 
-#####Standard and Sample Reading
+##### Standard and Sample Reading
 
 1. On the home screen of the Qubit 3.0 Fluorometer, select “**dsDNA**”, then “**High Sensitivity**”, and then “**Read Standards**.”  
      * **Note**: If you have already performed a calibration for the selected assay, the instrument prompts you to choose between reading new standards and running samples using the previous calibration. If you wish to use the previous calibration, disregard step 3 in the Standard and Sample Preparation step, and skip to step 4 below. Otherwise, continue with step 2 below. 
@@ -1002,7 +1002,7 @@ Sample Volume  | 1 μl | 5 μl | 10 μl | 15 μl | 20 μl
      
 7. Insert a sample tube into the sample chamber, close the lid, and press Read tube. When the reading is complete (~3 seconds), remove the sample tube and repeat until all samples have been read. 
 
-###**Part III:** Normalization
+### **Part III:** Normalization
 Dilute concentrated final library using Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to 4 nM. 
 
 Example:
@@ -1012,14 +1012,14 @@ Given a calculated concentration of 45nM, use C1V1=C2V2 to calculate how much RS
 
 V1  = 1.78 μl of sample + 18.22 μl of RSB produces 
 
-#####SAFE STOPPING POINT
+##### SAFE STOPPING POINT
 If you do not plan to proceed to Library Denaturing and MiSeq Sample Loading on page 27, leave your sample in 4°C. 
 
 ## Library Denaturing and MiSeq Sample Loading <a id="chapter-13"></a>
 In preparation for cluster generation and sequencing, pooled libraries are denatured with NaOH, diluted with hybridization buffer, and then heat denatured before MiSeq sequencing. Each run must include a minimum of 5% PhiX to serve as an internal control for these low-diversity libraries. Illumina recommends using MiSeq v2 reagent kits for improved run metrics.
 
-####Consumables
-######**Table 14. Library Denaturing and MiSeq Sample Loading Consumables**
+#### Consumables
+###### **Table 14. Library Denaturing and MiSeq Sample Loading Consumables**
 Item |  Quantity |	Storage
 -----| --------| -------
 **RSB (Resuspension Buffer)** |	6 μl |	-15° to -25°C
@@ -1031,9 +1031,9 @@ Item |  Quantity |	Storage
 **1.7 ml microcentrifuge tubes** | 3 tubes | Room temperature
 **2.5 L ice bucket** | 1 bucket | Room temperature
 
-####Procedure
+#### Procedure
 
-#####Preparation 
+##### Preparation 
 1. Begin thawing the reagent cartridge and HT1 before denaturing and diluting libraries by placing them in a room temperature water bath for about an hour 
      * Once thawed, store the cartridge and HT1 in the ice bucket until ready for sample loading. 
 2. Obtain an ice bucket for your thawed cartridge, freshly made reagents, and sample.
@@ -1047,7 +1047,7 @@ Item |  Quantity |	Storage
           * The final concentration of NaOH cannot exceed 0.001 (1mM). Higher NaOH concentrations will inhibit library hybridization to the flow cell and result in very low cluster density. 
 5. If you have not already done so, prepare a 200mM stock of Tris-HCl pH7.0 by combining 800 μl of Laboratory-grade water and 200 μl of Tris-HCl 1M.
 
-#####Denature DNA
+##### Denature DNA
 
 1. Combine the following volumes of pooled final DNA library and freshly diluted 0.2 N NaOH in a microcentrifuge tube:
      * 4 nM pooled library (5 μl)
@@ -1062,7 +1062,7 @@ Item |  Quantity |	Storage
           * Adding the HT1 results in a 20 pM denatured library in 1 mM NaOH.
 7. Place the denatured DNA on ice until you are ready to proceed to final dilution.
 
-#####Quick Review/Guide for denaturing 4nM library:
+##### Quick Review/Guide for denaturing 4nM library:
 5 μl of 4nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0 
 
 --> 
@@ -1079,7 +1079,7 @@ Add 985 μl of chilled HT1
 
 **NOTE: If you have to start with a lower concentration library, follow the below protocol for denaturing a 2nM library.**
 
-#####Quick Review/Guide for denaturing 2nM library:
+##### Quick Review/Guide for denaturing 2nM library:
 5 μl of 2nM library + 5 μl of 0.2N NaOH + 5 μl of 200mM Tris-HCl pH7.0 
 
 --> 
@@ -1094,17 +1094,17 @@ Add 985 μl of chilled HT1
 
 1mL of 0.0005N NaOH and 10pM denatured library + 1mM Tris-HCl pH 7.0
 
-####**Dilution chart for 10pM library:**
+#### **Dilution chart for 10pM library:**
 Desired Final Concentration | 6pM | 8pM | 10pM 
 ------ | ---- | ---- | ---- 
 **10pM denatured library** | 360 μl | 480 μl | 600 μl 
 **Pre-chilled HT1** | 240 μl | 120 μl | 0 μl 
 
-#####Dilute Denatured DNA
+##### Dilute Denatured DNA
 
 1. Dilute the denatured DNA to the desired concentration using the following table. Illumina recommends targeting 1000–1200 K/mm² raw cluster densities using MiSeq v2 reagents. 
 
-####**Final Library Dilution chart**
+#### **Final Library Dilution chart**
 Final Concentration | 2pM | 4pM | 6pM | 8pM | 10pM | 12pM | 15pM | 20pM
 ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
 **20pM denatured library** | 60 μl | 120 μl | 180 μl | 240 μl | 300 μl | 360 μl | 450 μl | 600 μl
@@ -1113,7 +1113,7 @@ Final Concentration | 2pM | 4pM | 6pM | 8pM | 10pM | 12pM | 15pM | 20pM
 2. Invert several times to mix and then pulse centrifuge the DNA solution.
 3. Place the denatured and diluted DNA on ice.
 
-#####Denature and Dilution of PhiX Control
+##### Denature and Dilution of PhiX Control
 Use the following instructions to denature and dilute the 10 nM PhiX library to the same loading concentration as the Amplicon library. The final library mixture must contain at least 5% PhiX.
 
 1. Combine the following volumes to dilute the PhiX library to 4 nM:
@@ -1130,7 +1130,7 @@ Use the following instructions to denature and dilute the 10 nM PhiX library to 
      * Pre‐chilled HT1 (985 μl)
 7. Dilute the denatured 20 pM PhiX library to the same loading concentration as the Amplicon library as follows: 
 
-####**PhiX Dilution chart**
+#### **PhiX Dilution chart**
 Final Concentration | 2pM | 4pM | 6pM | 8pM | 10pM | 12pM | 15pM | 20pM
 ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
 **20pM denatured library** | 60 μl | 120 μl | 180 μl | 240 μl | 300 μl | 360 μl | 450 μl | 600 μl
@@ -1139,7 +1139,7 @@ Final Concentration | 2pM | 4pM | 6pM | 8pM | 10pM | 12pM | 15pM | 20pM
 8. Invert several times to mix and then pulse centrifuge the DNA solution.
 9. Place the denatured and diluted PhiX on ice.
 
-#####Combine Amplicon Library and PhiX Control
+##### Combine Amplicon Library and PhiX Control
 The recommended PhiX control spike‐in of ≥ 5% for low diversity libraries is possible with RTA v1.17.28 or later, which is bundled with MCS v2.2. For optimal performance, update to v3 software (MCS 2.3). If you are using an older version of the MiSeq software or sequencing these libraries on the GA or HiSeq, Illumina recommends using ≥ 25% PhiX control spike‐in.
 
 1. Combine the following volumes of denatured PhiX control library and your denatured amplicon library in a microcentrifuge tube, which results in a 5% spike-in of PhiX:
@@ -1151,18 +1151,18 @@ The recommended PhiX control spike‐in of ≥ 5% for low diversity libraries is
 ## Supporting Information <a id="chapter-14"></a>
 The protocols described in this guide assume that you are familiar with the contents of this section and have obtained all of the requisite equipment and consumables.
 
-###Acronyms
-####Table 15. Definitions and Acronyms
+### Acronyms
+#### Table 15. Definitions and Acronyms
 Acronym | Definition 
 ------ | ------------------------------ 
 **PCR** | Polymerase Chain Reaction- a technique used to amplify 1 to a few copies of a piece of DNA across several orders of magnitude, generating thousands to millions of copies of a single DNA strand  
 **Primer** | A strand of short nucleic acid sequences that serves as a starting point for DNA synthesis during PCR 
 **Amplicon** | A piece of amplified DNA that is the product of a PCR reaction
 
-###Dual Indexing Principle
+### Dual Indexing Principle
 The dual indexing strategy uses two 8 base indices, Index 1 (i7) adjacent to the P7 sequence, and Index 2 (i5) adjacent to the P5 sequence. Dual indexing is enabled by adding a unique Index 1 (i7) and Index 2 (i5) to each sample. The 96 sample Nextera XT Index Kit (FC‐131–1002) use 12 different Index 1 (i7) adapters (N701–N712) and 8 different Index 2 (i5) adapters (S501–S508). The 24 sample Nextera XT Index Kit (FC‐131–1001) uses 6 different Index 1 (i7) adapters (N701–N706) and 4 different Index 2 (i5) adapters (S501–S504). In the Index adapter name, the N or S refers to Nextera XT sample preparation, 7 or 5 refers to Index 1 (i7) or Index 2 (i5), respectively. The 01–12 refers to the Index number. A list of index sequences is provided for generating sample sheets to demultiplex the samples
 
-####Index Pairs
+#### Index Pairs
 Index 1 (i7) | Sequence | Index 2 (i5) | Sequence 
 ------ | ------ | ------ | ------ 
 N701 | TAAGGCGA | S501 | TAGATCGC
@@ -1179,10 +1179,10 @@ N711 | AAGAGGCA |      |
 N712 | GTAGAGGA |      |         
 
 
-###Low Plexity Pooling Guidelines
+### Low Plexity Pooling Guidelines
 Illumina uses a green laser or LED to sequence G/T and a red laser or LED to sequence A/C. At each cycle, at least one of two nucleotides for each color channel are read to ensure proper registration. It is important to maintain color balance for each base of the index read being sequenced, otherwise index read sequencing could fail due to registration failure. If you choose the dual‐indexed sequencing workflow, always use at least two unique and compatible barcodes for each index (index 1 and index 2). The following tables illustrate possible pooling strategies:
 
-####**Table 16. Libraries Pooled: 6 or fewer; Sequencing Workflow; Single Index**
+#### **Table 16. Libraries Pooled: 6 or fewer; Sequencing Workflow; Single Index**
 Plex |  Index 1 (i7) Selection |	Index 2 (i5) Selection
 ----------| ------------------------------| -------
 **1-plex (no pooling)** |	Any index 1 adapter |	Any index 2 adapter
@@ -1192,7 +1192,7 @@ Plex |  Index 1 (i7) Selection |	Index 2 (i5) Selection
 **6-plex** | N701, N702, N703, N704, N705, and N706 
 
 
-####**Table 17. Sequencing Workflow: Single or Dual Index**
+#### **Table 17. Sequencing Workflow: Single or Dual Index**
 Plex |  Index 1 (i7) Selection |	Index 2 (i5) Selection
 ---------------| -----------------------| ------------------
 **7-12 plex, Dual Index** |	[option 1] N701, N702, N704, and any other Index 1 adapter (as needed); [option 2] N703, N705, N706, and any other Index 1 adapter (as needed) | [option 1] S501 and S502; [option 2] S503 and S504; [option 3] S505 and S506
@@ -1214,7 +1214,7 @@ Good Index 1 | Good Index 2 | Bad Index 1 | Bad Index 2
 705  GGACTCCT | 503  TATCCTCT | 705  GGACTCCT | 502 CTCTCTAT
 706  TAGGCATG | 503  TATCCTCT | 706  TAGGCATG | 502 CTCTCTAT
 
-###Prevent PCR Product Contamination
+### Prevent PCR Product Contamination
 The PCR process is commonly used in the laboratory to amplify specific DNA sequences. Unless proper laboratory hygiene is used, PCR products can contaminate reagents, instrumentation, and genomic DNA samples, causing inaccurate and unreliable results. PCR product contamination can shut down lab processes and significantly delay normal operations.
 
 Make sure that the lab is set up appropriately to reduce the risk of PCR product contamination:
@@ -1230,13 +1230,13 @@ Make sure that the lab is set up appropriately to reduce the risk of PCR product
 
 Because the pre‐ and post‐amplification reagents are shipped together, it is important to unpack the reagents in the pre‐PCR lab area. After unpacking the reagents, move the post-amplification reagents to the proper post‐PCR storage area.
 
-####Pre‐PCR and Post‐PCR Lab Procedures
+#### Pre‐PCR and Post‐PCR Lab Procedures
 To prevent PCR product contamination, it is important to establish lab procedures and follow best practices. Illumina recommends daily and weekly cleaning of lab areas using 0.5% Sodium Hypochlorite (10% Bleach).
 
-######CAUTION
+###### CAUTION
 To prevent sample or reagent degradation, make sure that all vapors from the cleaning solution have fully dissipated before beginning any processes.
 
-####Daily Cleaning of Pre‐PCR Area
+#### Daily Cleaning of Pre‐PCR Area
 A daily cleaning of the pre‐PCR area using a 0.5% Sodium Hypochlorite (10% Bleach) solution helps to eliminate PCR product that has entered the pre‐PCR area. Identify pre‐PCR areas that pose the highest risk of contamination, and clean these areas with a 0.5% Sodium Hypochlorite (10% Bleach) solution before beginning any pre‐PCR processes. 
 High‐risk areas might include, but are not limited to, the following items:
 
@@ -1246,7 +1246,7 @@ High‐risk areas might include, but are not limited to, the following items:
 * Computer mouse
 * Keyboards
 
-####Daily Cleaning of Post‐PCR Area
+#### Daily Cleaning of Post‐PCR Area
 Reducing the amount of PCR product in the post‐PCR area helps reduce the risk of contamination in the pre‐PCR area. Daily cleaning of the post‐PCR area using a 0.5% Sodium Hypochlorite (10% Bleach) solution helps reduce the risk of contamination. Identify post‐PCR areas that pose the highest risk of contamination, and clean these areas with a 0.5% Sodium Hypochlorite (10% Bleach) solution daily. 
 High‐risk areas might include, but are not limited to, the following items:
 
@@ -1257,7 +1257,7 @@ High‐risk areas might include, but are not limited to, the following items:
 * Computer mouse
 * Keyboards
 
-####Weekly Cleaning of All Lab Areas
+#### Weekly Cleaning of All Lab Areas
 One time a week, perform a thorough cleaning of the pre‐PCR and post‐PCR areas using 0.5% Sodium Hypochlorite (10% Bleach).
 
 * Clean all benchtops and laboratory surfaces.
@@ -1265,17 +1265,17 @@ One time a week, perform a thorough cleaning of the pre‐PCR and post‐PCR are
 * Thoroughly mop lab floors.
 * Make sure that personnel responsible for weekly cleaning are properly trained on prevention of PCR product contamination.
 
-####Items Fallen to the Floor
+####  Items Fallen to the Floor
 The floor is contaminated with PCR product transferred on the shoes of individuals coming from the post‐PCR area; therefore, anything falling to the floor must be treated as contaminated.
 
 * Disposable items that have fallen to the floor, such as empty tubes, pipette tips, gloves, lab coat hangers, must be discarded.
 * Non‐disposable items that have fallen to the floor, such as a pipette or an important sample container, must be immediately and thoroughly cleaned. Use a 0.5% Sodium Hypochlorite (10% Bleach) solution to remove PCR product contamination.
 * Clean any lab surface that has come in contact with the contaminated item. Individuals handling anything that has fallen to the floor, disposable or non‐disposable, must discard their lab gloves and put on a new pair.
 
-###Best Practices
+### Best Practices
 When preparing libraries for sequencing, always adhere to good molecular biology practices. Read through the entire protocol before starting to make sure that all of the required materials are available and your equipment is programmed and ready to use.
 
-####Handling Liquids
+#### Handling Liquids
 Good liquid handling measures are essential, particularly when quantifying libraries or diluting concentrated libraries for making clusters.
 
 * Small differences in volumes (±0.5 μl) can sometimes cause large differences in cluster numbers (~100,000).
@@ -1284,7 +1284,7 @@ Good liquid handling measures are essential, particularly when quantifying libra
 * Make sure that pipettes are not used at the volume extremes of their performance specifications. 
 * Prepare the reagents for multiple samples simultaneously, to minimize pipetting errors, especially with small volume enzyme additions. As a result, pipette one time from the reagent tubes with a larger volume, rather than many times with small volumes. Aliquot to individual samples in a single pipetting movement to allow for standardization across multiple samples.
 
-####Handling Magnetic Beads
+#### Handling Magnetic Beads
 NOTE Cleanup procedures have only been validated using the 96‐well plates and the magnetic stand specified in Tables 1 and 2.
 
 Comparable performance is not guaranteed when using a microcentrifuge tube or other formats, or other magnets.
@@ -1305,7 +1305,7 @@ Comparable performance is not guaranteed when using a microcentrifuge tube or ot
 * Do not scrape the beads from the edge of the well using the pipette tip.
 * To maximize sample recovery during elution, incubate the sample/bead mix for 2 minutes at room temperature before placing the samples onto the magnet.
 
-####Avoiding Cross‐Contamination
+#### Avoiding Cross‐Contamination
 Practice the following to avoid cross‐contamination:
 
 * Open only one adapter tube at a time.
@@ -1314,17 +1314,17 @@ Practice the following to avoid cross‐contamination:
 * Clean pipettes and change gloves between handling different adapter stocks.
 * Clean work surfaces thoroughly before and after the procedure.
 
-####Potential DNA Contaminants
+#### Potential DNA Contaminants
 
 When handling and processing samples using this protocol, use best practices to avoid PCR contamination, as you would when preparing PCR amplicons.
 
-####Temperature Considerations
+#### Temperature Considerations
 Temperature is an important consideration for making libraries:
 
 * Keep libraries at temperatures ≤37°C, except where specifically noted.
 * Place reagents on ice after thawing at room temperature.
 
-####Equipment
+#### Equipment
 
 * Review the programming instructions for your thermal cycler user guide to make sure that it is programmed appropriately using the heated lid function.
 * It is acceptable to use the thermal cycler tracked heating lid function.
