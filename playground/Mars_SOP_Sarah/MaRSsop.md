@@ -1210,7 +1210,7 @@ These strategies represent only some of the acceptable combinations. Alternative
 
 
 | Good Index 1 | Good Index 2 | Bad Index 1 | Bad Index 2 |
-| :------: | :------: | :------: | :------: |
+| ------: | ------: | ------: | ------: |
 | 705  GG**A**CT**CC**T | 503  T**A**T**CC**T**C**T | 705  GG**AC**T**CC**T | 502  **C**T**C**T**C**T**A**T |
 | 706  T**A**GG**CA**TG | 503  T**A**T**CC**T**C**T | 706  T**A**GG**CA**TG | 502  **C**T**C**T**C**T**A**T |
 | 701  T**AA**GG**C**G**A** | 504  **A**G**A**GT**A**G**A** | 701  T**AA**GG**C**G**A** | 503  T**A**T**CC**T**C**T |
@@ -1336,82 +1336,5 @@ Temperature is an important consideration for making libraries:
 
 * Review the programming instructions for your thermal cycler user guide to make sure that it is programmed appropriately using the heated lid function.
 * It is acceptable to use the thermal cycler tracked heating lid function.
-
-
-
-
-
-
-
-
-
-
-
-
-                                                             
-                                                            
-                                                            
-                                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
