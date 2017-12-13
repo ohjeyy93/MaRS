@@ -896,8 +896,8 @@ After determining the fragment size and concentration of your pooled product, yo
 (concentration in ng/μl) * (10^6) / (660g/mol) * (average library size) = concentration in nM
 ```
 
-__For example:
-###### (15ng/μl) x (10^6) / (660g/mol) x (500bp) = 45 nM
+_For example:_
+(15ng/μl) x (10^6) / (660g/mol) x (500bp) = 45 nM
 
 ### **Agilent Technologies Agilent D5000 ScreenTape System** 
 This SOP format was adapted from the Agilent D5000 ScreenTape System Quick Guide protocol from Agilent Technologies. 
@@ -984,10 +984,10 @@ Item |  Quantity |	Storage
      
         * **Note** Your sample can be anywhere from 1–20 μl. Add a corresponding volume of Qubit working solution to each assay tube: anywhere from 180–199 μl.
 
-x | x  | x  |  x | x  |  x
------- | ---- | ---- | ---- | ---- | ---- 
-Working Sample Volume | 199 μl | 195 μl | 190 μl | 185 μl | 180 μl
-Sample Volume  | 1 μl | 5 μl | 10 μl | 15 μl | 20 μl 
+| |   |   |   |   |  |
+|------ | ---- | ---- | ---- | ---- | ---- |
+|Working Sample Volume | 199 μl | 195 μl | 190 μl | 185 μl | 180 μl|
+|Sample Volume  | 1 μl | 5 μl | 10 μl | 15 μl | 20 μl |
 
 5. Allow all tubes to incubate at room temperature for 2 minutes. 
 
