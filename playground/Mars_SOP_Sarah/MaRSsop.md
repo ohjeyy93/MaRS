@@ -1027,7 +1027,7 @@ If you do not plan to proceed to Library Denaturing and MiSeq Sample Loading on 
 In preparation for cluster generation and sequencing, pooled libraries are denatured with NaOH, diluted with hybridization buffer, and then heat denatured before MiSeq sequencing. Each run must include a minimum of 5% PhiX to serve as an internal control for these low-diversity libraries. Illumina recommends using MiSeq v2 reagent kits for improved run metrics.
 
 #### Consumables
-###### **Table 14. Library Denaturing and MiSeq Sample Loading Consumables**
+###### **Table 14.** Library Denaturing and MiSeq Sample Loading Consumables
 Item |  Quantity |	Storage
 -----| --------| -------
 **RSB (Resuspension Buffer)** |	6 μl |	-15° to -25°C
@@ -1046,13 +1046,13 @@ Item |  Quantity |	Storage
      * Once thawed, store the cartridge and HT1 in the ice bucket until ready for sample loading. 
 2. Obtain an ice bucket for your thawed cartridge, freshly made reagents, and sample.
 3. Check pH of the stock 1.0N NaOH and the resulting 0.2N NaOH dilution using pH reader. 
-     * **Note** CO2 in the room will acidify NaOH over time. It is absolutely critical that the NaOH has a minimum pH >12.5. 
+     * **Note** CO2 in the room will acidify NaOH over time. It is absolutely **critical** that the NaOH has a minimum pH >12.5. 
 4. Prepare a fresh dilution of 0.2 N NaOH [this is a critical step; NaOH must be prepared fresh every time] 
      * Using a 1000ul pipette, measure out 800uL of laboratory-grade water.
      * In a separate microcentrifuge tube, measure 200uL of stock 1.0N NaOH.
      * Combine the two volumes and then invert several times to mix
-          * This results in a 1mL of 0.2N NaOH solution; the resulting solution cannot be stored and must be used within 6 hours
-          * The final concentration of NaOH cannot exceed 0.001 (1mM). Higher NaOH concentrations will inhibit library hybridization to the flow cell and result in very low cluster density. 
+          * **Note** This results in a 1mL of 0.2N NaOH solution; the resulting solution cannot be stored and must be used within 6 hours
+          * **Note** The final concentration of NaOH cannot exceed 0.001 (1mM). Higher NaOH concentrations will inhibit library hybridization to the flow cell and result in very low cluster density. 
 5. If you have not already done so, prepare a 200mM stock of Tris-HCl pH7.0 by combining 800 μl of Laboratory-grade water and 200 μl of Tris-HCl 1M.
 
 ##### Denature DNA
