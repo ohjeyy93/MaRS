@@ -418,13 +418,12 @@ This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR
 
 *\* If no TruSeq Index Plate Fixture is available, arrange the Index adaptors in the same way, and individually pipette each adaptor into its corresponding well*
 
-Figure 2 TrueSeq Index Plate Fixture
+**Figure 2 *TrueSeq Index Plate Fixture***
 
 ![alt text](https://github.com/CDCgov/MaRS/blob/master/images/TruSeqIndex.png)             
 
-A Index 2 primers (white caps)
-B Index 1 primers (orange caps)
-C 96‐well plate
+         A Index 2 primers (white caps), B Index 1 primers (orange caps), C 96‐well plate.
+                
 
 
 
@@ -493,29 +492,29 @@ To maximize recovery of smaller fragments from the bead cleanup step, use the fo
 
 ![alt text](https://github.com/CDCgov/MaRS/blob/master/images/AMPure.png)
 
-4. 	Using a multichannel pipette, add 90 μl of AMPure XP beads to each well of the Amplicon PCR plate. Change tips between columns. 
-5. 	Gently pipette entire volume up and down 10 times if using a 96‐well PCR plate, or seal plate and shake at 1800 for 2 minutes if using a MIDI plate. Change tips after each column. The mixture should appear homogeneous. 
-6. 	Incubate the mixed samples at room temperature without shaking for 5 minutes.
-7. 	Place the Library amplification plate on a magnetic stand for 2 minutes. WAIT for the solution to clear before proceeding.
-8. 	With the Amplicon PCR plate on the magnetic stand, use a multichannel pipette to carefully remove and discard all the supernatant. Change tips between samples.
+4.  Using a multichannel pipette, add 90 μl of AMPure XP beads to each well of the Amplicon PCR plate. Change tips between columns. 
+5.  Gently pipette entire volume up and down 10 times if using a 96‐well PCR plate, or seal plate and shake at 1800 for 2 minutes if using a MIDI plate. Change tips after each column. The mixture should appear homogeneous. 
+6.  Incubate the mixed samples at room temperature without shaking for 5 minutes.
+7.  Place the Library amplification plate on a magnetic stand for 2 minutes. WAIT for the solution to clear before proceeding.
+8.  With the Amplicon PCR plate on the magnetic stand, use a multichannel pipette to carefully remove and discard all the supernatant. Change tips between samples.
 
 	**DO NOT disturb the ring of separated magnetic beads.** 
 	
-9. 	With the Library amplification plate on the magnetic stand, wash the beads with freshly prepared 80% ethanol as follows:
-        a. Using a multichannel pipette, add 200 μl of freshly prepared 80% ethanol to each sample well.
-        b. Incubate the plate on the magnetic stand for 30 seconds at room temperature.
-        c. Carefully remove and discard the ethanol. 
+9.  With the Library amplification plate on the magnetic stand, wash the beads with freshly prepared 80% ethanol as follows:
+    a. Using a multichannel pipette, add 200 μl of freshly prepared 80% ethanol to each sample well.
+    b. Incubate the plate on the magnetic stand for 30 seconds at room temperature.
+    c. Carefully remove and discard the ethanol. 
     
-   **Note: The beads are not drawn out easily when in alcohol, so it is not necessary to leave any supernatant behind.**
+     **Note: The beads are not drawn out easily when in alcohol, so it is not necessary to leave any supernatant behind.**
 
-10.     With the Library amplification plate on the magnetic stand, perform a second ethanol wash as follows:
-        a. Using a multichannel pipette, add 180 μl of freshly prepared 80% ethanol to each sample well.
-        b. Incubate the plate on the magnetic stand for 30 seconds.
-        c. Carefully remove and discard all the ethanol.
-        d. Use a P20 multichannel pipette with fine pipette tips to remove excess ethanol.
-11.     With the Library amplification plate still on the magnetic stand, allow the beads to air‐dry for 15 minutes.
+10. With the Library amplification plate on the magnetic stand, perform a second ethanol wash as follows:
+    a. Using a multichannel pipette, add 180 μl of freshly prepared 80% ethanol to each sample well.
+    b. Incubate the plate on the magnetic stand for 30 seconds.
+    c. Carefully remove and discard all the ethanol.
+    d. Use a P20 multichannel pipette with fine pipette tips to remove excess ethanol.
+11. With the Library amplification plate still on the magnetic stand, allow the beads to air‐dry for 15 minutes.
     
-  **NOTE: make sure not to over dry the beads. Bead pellets will appear cracked if over dried.** 
+    **NOTE: make sure not to over dry the beads. Bead pellets will appear cracked if over dried.** 
   
 12.    Remove the Amplicon PCR plate from the magnetic stand. Using a multichannel pipette, add 52.5 μl RSB to each well of the Amplicon PCR plate.
 13.    Gently pipette mix up and down 10 times, or seal plate and shake at 1800 for 2 minutes if using a MIDI plate. Change tips after each column. 
