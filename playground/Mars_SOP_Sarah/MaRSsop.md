@@ -561,7 +561,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 
 
-## Electrophoresis
+## Electrophoresis <a id="chapter-6"></a>
 
 This step is necessary to ensure successful amplification of amplicons. It is recommended to run at least 25% of the total samples, all no-template and negative controls on the gel to confirm amplification was successful and no contamination occured. Please note PCR amplification can be affected by numerous factors, including but not limited to, DNA quality and quantity. 
 
@@ -597,7 +597,7 @@ This step is necessary to ensure successful amplification of amplicons. It is re
 16. Remove the gel from the chamber and take to the gel reading station for analysis.
 17. Once amplification is confirmed, proceed to SequalPrep Normalization **(page 15-16)**.
 
-## SequalPrep Normalization
+## SequalPrep Normalization <a id="chapter-7"></a>
 This step utilizes ChargeSwitch Technology to purify and normalize amplicon PCR product. PCR product is added to the plate and mixed with Binding Buffer, which then sits at room temperature for 1 hour. The DNA is then washed and eluted, resulting in a purified and normalized DNA product. 
 
 This protocol format was adapted from the SequalPrep™ Normalization Plate (96) Kit [protocol](https://www.thermofisher.com/order/catalog/product/A1051001) from ThermoFisher Scientific
@@ -667,7 +667,7 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 **SAFE STOPPING POINT** If you do not immediately proceed to *Tagment Genomic DNA,* seal plate with Microseal “B” adhesive seal and store it at ‐15° to ‐25°C for up to a week.
 
 
-## Tagment Genomic DNA
+## Tagment Genomic DNA <a id="chapter-8"></a>
   This step uses the Nextera transposome to tagment gDNA, which fragments and then tags the DNA with adaptor sequences in a single step. 
 
 ![alt text](https://github.com/CDCgov/MaRS/blob/master/images/Nextera.png)
@@ -718,7 +718,7 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 8.	[optional] To assess tagmentation, run 1 uL on Agilent Bioanalyzer and/or Tapestation using high sensitivity DNA chip. 
 9.	Proceed to Library Amplification and Index PCR
 
-## Library Amplification and Index PCR
+## Library Amplification and Index PCR <a id="chapter-9"></a>
 This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR step adds Index 1 (i7) adapters and Index 2 (i5) adapters and sequences required for cluster formation. Use the full amount of recommended input DNA. To ensure libraries produce high-quality sequencing results, use the specified number of PCR cycles
 
 ### Consumables
@@ -773,7 +773,7 @@ This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR
 
 **SAFE STOPPING POINT** If you do not immediately proceed to Library Clean-Up on page 21, seal plate with an adhesive seal and store it at 2° to 8°C for up to a week.
 
-## Library Clean‐Up 
+## Library Clean‐Up <a id="chapter-10"></a>
 This step uses AMPure XP beads to clean up the final library before quantification.
 
 ### Consumables
@@ -857,7 +857,7 @@ It is important to consider library size when preparing samples for cluster gene
 
 ##### Guidelines for Optimal Cluster Density
 
-![Cluster](../../images/ClusterDensity.png)
+![Cluster](https://github.com/CDCgov/MaRS/blob/master/images/ClusterDensity.png)
 
 **Average Library Size** |  **Conversion Factor** |	**DNA Concentration for Cluster Generation**
 -----------| ----------------| -----------------
@@ -1145,7 +1145,9 @@ The recommended PhiX control spike‐in of ≥ 5% for low diversity libraries is
 2. Set the combined sample library and PhiX control aside on ice until you are ready to load the mixture into the MiSeq v2 reagent cartridge.
 3. Invert the tube 1–2 times to mix and load all 600ul into the designated well in the cartridge.
 
-## Supporting Information <a id="chapter-14"></a>
+<a id="chapter-14"></a>
+## Supporting Information 
+
 The protocols described in this guide assume that you are familiar with the contents of this section and have obtained all of the requisite equipment and consumables.
 
 ### Acronyms
