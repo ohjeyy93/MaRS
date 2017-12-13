@@ -322,13 +322,13 @@ User‐defined forward and reverse primers are used to amplify templates from ge
 3. Once tubes and/or plates are sealed, keep them in the Eppendorf PCR Cooler plates. **Pre-heat** the thermal cycler to 98°C prior to placing PCR plates and/or PCR tubes into the thermal cycler. Pre-heating to 98°C should take 0:30 of the 3:00 min. 
 
 
-![Nextera](images/Nextera.png)
+![Nextera](../../images/Nextera.png)
 
-![TruSeqIndex](images/TruSeqIndex.png)
+![TruSeqIndex](../../images/TruSeqIndex.png)
 
-![AMPure](images/AMPure.png)
+![AMPure](../../images/AMPure.png)
 
-![Cluster](images/ClusterDensity.png)
+![Cluster](../../images/ClusterDensity.png)
 
 
 ###Primers and PCR Conditions 
