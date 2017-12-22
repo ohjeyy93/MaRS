@@ -329,7 +329,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 **Table 6.1 *Pfcrt***
 
-|*Pfcrt (3109bp)*    | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
+|*Pfcrt (3109bp)*    | **50.0 μl rxn**| X samples+1 |	***Final [conc]***  |                                           
 |:------------------:|:--------------:|:-------------:|:--------------:|
 | *Master Mix:*      |                                                                                                 	                                                             
 | *5X GC Buffer*    | 	*10.0 μl*|                  | *1 x*|
@@ -338,8 +338,8 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
  |*H<sub>2</sub>O*	            |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
- |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
- |*Total*	          | **46.0μl** |                  |           |
+ |*HF Phusion Taq*  |	  *0.5 μl*  |                  |*1 unit*|
+ |*Total*	          | **46.0 μl** |                  |           |
  |**Add:**		      |            |                   ||
 | *Template DNA*	  |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
  |**TOTAL**	          |**50.0 μl**	 |	                 |          |
@@ -362,16 +362,16 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 **Table 6.2 _Pfk13_**
 
-|*PfK13 (2120bp)*	  | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
+|*Pfk13 (2120bp)*	  | **50.0 μl rxn**| X samples+1 |	***Final [conc]***  |                                           
 |:------------------:|:--------------:|:-------------:|:--------------:|
-| *Master Mix:*      |                                                                                                 	                                                              | *5X GC Buffer*     | 	*10.0 μl*|                  | *1 x*|
+| *Master Mix:*      |                                                                                                 	          | *5X GC Buffer*     | 	*10.0 μl*|                  | *1 x*|
 | *dNTPs (10mM)*	  |   *1 μl*	 |                  | *0.2 mM*|
 | *F primer (10uM)*  |	*1.25 μl*	 |                  | *0.25 uM*|
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
  |*H<sub>2</sub>O*	 |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
- |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
- |*Total*	          | **46.0μl** |                  |           |
+ |*HF Phusion Taq*  |	  *0.5 μl*  |                  |*1 unit*|
+ |*Total*	          | **46.0 μl** |                  |           |
  |**Add:**		      |            |                   ||
 | *Template DNA*	  |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
  |**TOTAL**	          |**50.0 μl**	 |	                 |          |
@@ -395,7 +395,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 **Table6.3 Mitochondrial genome**
 
-|*Mitch(5967bp)*	  | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
+|*Mitch(5967bp)*	  | **50.0 μl rxn**| X samples+1 |	***Final [conc]***  |                                           
 |:--------------------:|:--------------:|:-------------:|:-----------------:|
 | *Master Mix:*      |                                                                                                 	                                               
 | *5X GC Buffer*    | 	*10.0 μl*|                  | *1 x*|
@@ -404,8 +404,8 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
  |*H<sub>2</sub>O*	            |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
- |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
- |*Total*	          | **46.0μl** |                  |           |
+ |*HF Phusion Taq*  |	  *0.5 μl*  |                  |*1 unit*|
+ |*Total*	          | **46.0 μl** |                  |           |
  |**Add:**		      |            |                   ||
 | *Template DNA*	  |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
  |**TOTAL**	          |**50.0 μl**	 |	                 |          |
@@ -435,7 +435,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 **Table6.3a *Cytochrome b***
 
 
-|*Pfcytb 1 (937bp)*	 | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
+|*Pfcytb 1 (937bp)*	 | **50.0 μl rxn**| X samples+1 |	***Final [conc]***  |                                           
 |:------------------:|:--------------:|:-------------:|:--------------:|
 | *Master Mix:*      |                                                                                                 	                                                       
 | *5X GC Buffer*     | 	*10.0 μl*      |                  | *1 x*|
@@ -444,8 +444,8 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *R primer (10uM)*	 |  *1.25 μl*  |                  |*0.25 uM*|
 | *H<sub>2</sub>O*    |  *32 μl*   |                  |         |
  |**Add last:** 	   |             |                  |         |
- |*HF Phusion Taq*   |	  *0.5μl*  |                  |*1 unit*|
- |*Total*	           | **46.0μl**  |                  |           |
+ |*HF Phusion Taq*   |	  *0.5 μl*  |                  |*1 unit*|
+ |*Total*	           | **46.0 μl**  |                  |           |
  |**Add:**		       |             |                   ||
  | *Template DNA*	   |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
  |**TOTAL**	          |**50.0 μl**	 |	                 |          |
@@ -465,7 +465,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 **Table 6.4 *mdr1***
 
-|*Pfmdr1 (4155bp)*	  | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                           
+|*Pfmdr1 (4155bp)*	  | **50.0 μl rxn**| X samples+1 |	***Final [conc]***  |                                           
 |:------------------|:--------------:|:-------------|:--------------:|
 | *Master Mix:*      |                                                                                                 	                                               
 | *5X GC Buffer*    | 	*10.0 μl*|                  | *1 x*|
@@ -474,8 +474,8 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
  |*H2O*	            |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
- |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
- |*Total*	          | **46.0μl** |                  |           |
+ |*HF Phusion Taq*  |	  *0.5 μl*  |                  |*1 unit*|
+ |*Total*	          | **46.0 μl** |                  |           |
  |**Add:**		      |            |                   ||
 | *Template DNA*	  |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
  |**TOTAL**	          |**50.0 μl**	 |	                 |          |
@@ -498,7 +498,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 **Table 6.5 *dhfr***
 
-|*Pfdhfr (2067bp)*| **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                          
+|*Pfdhfr (2067bp)*| **50.0 μl rxn**| X samples+1 |	***Final [conc]***  |                                          
 |:------------------:|:--------------:|:-------------:|:--------------:|
 | *Master Mix:*      |                                                                                                 	                                      
 | *5X GC Buffer*    | 	*10.0 μl*|                  | *1 x*|
@@ -507,8 +507,8 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
  |*H<sub>2</sub>O*	            |  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
- |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
- |*Total*	          | **46.0μl**	 |                  |           |
+ |*HF Phusion Taq*  |	  *0.5 μl*  |                  |*1 unit*|
+ |*Total*	          | **46.0 μl**	 |                  |           |
  |**Add:**		      |            |                   ||
 | *Template DNA*	  |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
  |**TOTAL**	        |**50.0 μl**	|	                 |          |
@@ -532,7 +532,7 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 **Table 6.6 *dhps***
 
-|*Pfdhps (2817bp)*	  | **50.0 μlrxn**| X samples+1 |	***Final [conc]***  |                                          
+|*Pfdhps (2817bp)*	  | **50.0 μl rxn**| X samples+1 |	***Final [conc]***  |                                          
 |:------------------|:--------------|:-------------|:--------------|
 | *Master Mix:*      |                                                                                                 	                                                  
 | *5X GC Buffer*    | 	*10.0 μl*|                  | *1 x*|
@@ -541,8 +541,8 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 | *R primer (10uM)*	|  *1.25 μl* |                  |*0.25 uM*|
  |*H<sub>2</sub>O*|  *32 μl*   |                  |         |
  |**Add last:** 	  |            |                  |         |
- |*HF Phusion Taq*  |	  *0.5μl*  |                  |*1 unit*|
- |*Total*	          | **46.0μl** 	 |                  |           |
+ |*HF Phusion Taq*  |	  *0.5 μl*  |                  |*1 unit*|
+ |*Total*	          | **46.0 μl** 	 |                  |           |
  |**Add:**		      |            |                   ||
 | *Template DNA*	  |*4.0 μl/well*| 	 ------	      |*50-250 ng*|
  |**TOTAL**	          |**50.0 μl**	 |	                 |          |
@@ -1017,7 +1017,7 @@ Given a calculated concentration of 45nM, use C<sub>1</sub>V<sub>1</sub>=C<sub>2
 
 45nM (V<sub>1</sub>)= 4nM (20 μl)
 
-V<sub>1</sub>  = 1.78 μl of sample + 18.22 μl of RSB produces 
+V<sub>1</sub>  = 1.78 μl of sample + 18.22 μl of RSB produces 20 μl of a 4nM concentration
 
 ##### SAFE STOPPING POINT
 If you do not plan to proceed to Library Denaturing and MiSeq Sample Loading on page 27, leave your sample in 4°C. 
