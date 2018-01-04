@@ -8,7 +8,7 @@
 2. Run R script DepthPerReportSNP.R
    * Rscript DepthPerReportSNP.R -i /file/path/to/Study_depth.csv -o /file/path/to/output/image/file.png
 
-### Novel exoninc and intronic SNPs
+### Novel exonic and intronic SNPs
 
 ### Contact Information
 
