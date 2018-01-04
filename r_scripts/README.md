@@ -6,10 +6,10 @@
 #### Visualize the distribution of read depths for each reportable variant at each MaRS loci
 1. Save Study_depth.xlsx to Study_depth.csv
 2. Run R script DepthPerReportSNP.R
-   * Rscript DepthPerReportSNP.R -i */file/path/to/\\*Study_depth.csv -o _/file/path/to/output/image/file_.png
+   * Rscript DepthPerReportSNP.R -i /file/path/to/Study_depth.csv -o /file/path/to/output/image/file.png
 
 ### Novel exoninc and intronic SNPs
 
 ### Contact Information
 
-* Contact obf2@cdc.gov with any questions.
+* Contact Sarah Schmedes (obf2@cdc.gov) with any questions.
