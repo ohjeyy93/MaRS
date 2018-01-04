@@ -6,7 +6,7 @@
 ## MaRS Pipeline ##
 
 #### MaRS consists of two standardized workflows:
-  * [Laboratory SOP]()
+  * [Laboratory SOP](https://github.com/CDCgov/MaRS/tree/master/lab_sop/MaRSsop.md)
     * Latest version: Version 3.3 (modified November 2, 2017)
       * Currently validated for use with *Plasmodium falciparum* infected whole-blood samples
     * Table of Contents
@@ -23,7 +23,7 @@
       * Library Pooling, Quantification, and Normalization
       * Library Denaturing and MiSeq Sample Loading
       * Supporting Information
-  * Bioinformatic pipeline
+  * [Bioinformatic pipeline](https://github.com/CDCgov/MaRS)
     * See MaRS README for bioinformatics pipeline protocol
 
 ### Contact Information ###
