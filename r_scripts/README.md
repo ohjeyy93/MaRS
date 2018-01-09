@@ -1,6 +1,4 @@
-# R Code to generate figures using data outputs from MaRS pipeline 
-
-# Read depth data 
+# R Code to generate figures using data outputs from MaRS pipeline  
 
 ### Reportable SNPs
 #### Visualize the distribution of read depths for each reportable variant at each MaRS loci
