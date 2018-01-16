@@ -2,7 +2,7 @@
 
 ## Follow the basic steps as outlined in the [SRA Submission Quick Start](https://www.ncbi.nlm.nih.gov/sra/docs/submit/)
 1. Sign in to your NCBI account.
-2. Register your biological samples at the [BioSample database](https://www.ncbi.nlm.nih.gov/biosample/) under BioProject [PRJNA428490](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490)(The MaRS BioProject).
+2. Register your biological samples at the [BioSample database](https://www.ncbi.nlm.nih.gov/biosample/) under the MaRS BioProject [PRJNA428490](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490.
 3. Create a new SRA data submission and submit your SRA metadata file.
 4. Follow the prompts on the screen to upload your files, selecting the Aspera option.
 5. Upload sequence files using Aspera Connect via command line (see below) or [SRA fle upload options](https://www.ncbi.nlm.nih.gov/sra/docs/submitfiles/)
