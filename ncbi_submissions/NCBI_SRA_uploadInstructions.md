@@ -16,6 +16,6 @@
 2. Download the aspera key from the link provided in the SRA submission portal prompting you to upload your files
 3. Make sure all of your sequence files are grouped together in the same directory with no other files
 4. Run the following command in the command line
-    * ascp -i <path/to/key\_file> -QT -m 1100 -k 1 -d <path/to/folder\_with\_files(s)> subasp@upload.ncbi.nlm.nih.gov:\<destination directory as provided on the SRA submission screen>
+    * ascp -i <path/to/key\_file> -QT -m 1100 -k 1 -d <path/to/folder\_with\_files(s)> subasp\@upload.ncbi.nlm.nih.gov:\<destination directory as provided on the SRA submission screen>
 5. Files are now uploaded
 6. Select the pre-loaded folder and click submit.
