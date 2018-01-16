@@ -6,7 +6,7 @@
 3. Create a new SRA data submission and submit your SRA metadata file
 4. Follow the prompts on the screen to upload your files, selecting the Aspera option.
 5. Upload sequence files using Aspera Connect via command line (see below) or [SRA fle upload options](https://www.ncbi.nlm.nih.gov/sra/docs/submitfiles/)
-* Note: Do not use FTP transfer. This option times out too often / has too many connect issues.
+* Note: Do not use FTP transfer. This option times out too often/has too many connection issues with our experience.
 
 ## File transfer using Aspera command line after submiting SRA metadata file
 1. Download and install Aspera command line, if you do not currently have this installed.
