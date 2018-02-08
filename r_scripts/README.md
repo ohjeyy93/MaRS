@@ -8,8 +8,8 @@
 #### Visualize the frequency of wild-type, major, and minor alleles for each variant
 1. Save Study_variants.xlsx to Study_variants.csv
 2. Download reportable_SNPs.csv file from this repo
-3. Run R script analyze_vcf3_revisedSES.r
-   * Rscript analyze_vcf3_revisedSES.r -i /file/path/to/Study_variants.csv -r /file/path/to/reportable_SNPs.csv -o /path/to/ouput/directory/
+3. Run R script reportableSNPsFreq.R
+   * Rscript reportableSNPsFreq.R -i /file/path/to/Study_variants.csv -r /file/path/to/reportable_SNPs.csv -o /path/to/ouput/directory/
 
 ### Novel synonymous and non-synonymous exonic and intronic SNPs
 #### Visualize the frequency of major and minor alleles for each novel variant
