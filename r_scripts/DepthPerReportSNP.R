@@ -43,7 +43,7 @@ tbl.long <- arrange(tbl.long, Loci, CodonPos)
 cbPalette <- c("#FF0000", "#0000FF", "#009900", "#FFFF00", "#9933FF", "#FF9900")
 
 #Generate boxplot
-ggplot(tbl.long, aes(x=Variant, y=Readdepth, fill=Loci)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 90)) + ylab("Read Depth") + theme(text = element_text(size=20), axis.text.x = element_text(size = 10)) + scale_fill_manual(values=cbPalette)
+ggplot(tbl.long, aes(x=Variant, y=Readdepth, fill=Loci)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 90)) + ylab("Read Depth") + theme(text = element_text(size=10), axis.text.x = element_text(size = 6)) + scale_fill_manual(values=cbPalette)
 
 #Save plot as image file
-ggsave(opt$output_file, plot = last_plot(), dpi = 300, width = 40, height = 28, units = c("cm"), limitsize = T)
+ggsave(opt$output_file, plot = last_plot(), dpi = 300, width = 17.46, height = 12.22, units = c("cm"), limitsize = T)
