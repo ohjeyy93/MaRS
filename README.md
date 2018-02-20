@@ -24,13 +24,16 @@ git clone -b osx_MaRSv1.1.2  https://github.com/CDCgov/MaRS.git
 
 > Script below will check if you have homebrew and python3. If not it will install [homebrew](https://brew.sh) and python3. Run: 
 ```sh
-sh brew_py_check.sh
+sh brew_py.sh
 ```
 
 3. Install [virtualenv](https://virtualenv.pypa.io/en/stable/) and initate a local virtual environment. 
 
 ```sh
 pip3 install virtualenv 
+
+vim ~/.bash_profile 		# open your .bash_profile and add the following path: PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
 virtualenv mars_venv		# create required dependencies for venv, put them in dir mars_venv 
 source mars_venv/bin/activate	# activate your virtual environment
 ```
