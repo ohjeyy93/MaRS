@@ -28,12 +28,10 @@ sh brew_py.sh
 ```
 
 3. Install [virtualenv](https://virtualenv.pypa.io/en/stable/) and initate a local virtual environment. 
+> Before installing virtualenv you need to add the following path: `PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"` to your `.bash_profile`. For example, use `vim ~/.bash_profile` to edit and/or create a new *.bash_profile* file. Copy the above bath into the file and save `:wq` if using vim.  
 
 ```sh
 pip3 install virtualenv 
-
-vim ~/.bash_profile 		# open your .bash_profile and add the following path: PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
-
 virtualenv mars_venv		# create required dependencies for venv, put them in dir mars_venv 
 source mars_venv/bin/activate	# activate your virtual environment
 ```
