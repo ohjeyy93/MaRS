@@ -1,0 +1,6 @@
+#File	/Users/eldintalundzic/MyGit/mars_osx/test_data/116A_R2.fastq.gz	/Users/eldintalundzic/MyGit/mars_osx/test_data/116A_R1.fastq.gz
+#Total	21664
+#Matched	6236	28.78508%
+#Name	Reads	ReadsPct
+Nextera_transposase_read1	4095	18.90233%
+Nextera_transposase_read2	2141	9.88275%
