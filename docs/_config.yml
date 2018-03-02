@@ -159,6 +159,7 @@ kramdown:
 highlighter: rouge
 
 # theme: minima
+theme: /jameshamann/jekyll-material-theme
 permalink: pretty
 plugins:
   - jekyll-feed
