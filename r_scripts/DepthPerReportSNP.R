@@ -27,7 +27,6 @@ if(is.null(opt$output_file)){
 }
 
 #Input data from MaRS output
-# Must save Study_depth.xlsx to a csv file first
 tbl <- read_csv(opt$input_file, col_names = T) # Read in Study_depth.csv data into a tibble (a type of data frame)
 
 #Reformat data to long from wide format to inorder to make plots
@@ -36,7 +35,6 @@ tbl.long <- separate(tbl.long, Variant, c("Loci", "SNP"), sep = ":", remove = F)
 tbl.long$CodonPos <- as.numeric(substr(tbl.long$SNP, 2, nchar(tbl.long$SNP)-1))
 tbl.long$Variant <- factor(tbl.long$Variant, unique(tbl.long$Variant))
 tbl.long <- arrange(tbl.long, Loci, CodonPos)
-#tbl.long <- filter(tbl.long, Sample != "MRA1236_S252") Code to exclude any samples if needed
 
 #Make boxplot
 #Set desired colors useing hexidecimal values for your plot (6 colors for 6 genes/targets)

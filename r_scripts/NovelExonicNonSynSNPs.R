@@ -26,7 +26,7 @@ if(is.null(opt$output_dir)){
 
 setwd(opt$output_dir)
 
-tbl.ex <- read_csv(opt$input_file, col_names = T)
+tbl.ex <- read_csv(opt$input_file, col_names = T) 
 
 #Output revised Study_novel_exonic_variants_gt1.csv
 #uncomment next two lines if you want to remove any samples that occur only one time

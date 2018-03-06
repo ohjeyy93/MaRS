@@ -71,8 +71,8 @@ vcfdata$AF[vcfdata$AF == "" & vcfdata$DP >= 0] = 0
 
 
 ################ minimum DP?
-vcfdata$AF[vcfdata$DP == 0] = NA
-#vcfdata$AF[vcfdata$DP < 5] = NA
+#vcfdata$AF[vcfdata$DP == 0] = NA
+vcfdata$AF[vcfdata$DP < 5] = NA
 
 
 ### convert frequency to proportion
