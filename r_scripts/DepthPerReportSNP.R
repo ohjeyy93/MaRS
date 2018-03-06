@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 
-#Load libraries
+#Load each library
 library(ggplot2) # used to create plots
 library(reshape2) # used for data transformation
 library(tidyr) # used for data transformation
