@@ -4,13 +4,13 @@
 #### Visualize the distribution of read depths for each reportable variant at each MaRS loci
 1. Run R script DepthPerReportSNP.R
    * Rscript DepthPerReportSNP.R -i /file/path/to/Study_depth.csv -o /file/path/to/output/image/file.png
-#### Visualize the frequency of wild-type, major, and minor alleles for each variant
+#### Visualize the frequency of wild-type, major, and minor alleles for each variant (if > 1 variant present)
 1. Download reportable_SNPs.csv file from this repo
 2. Run R script reportableSNPsFreq.R
    * Rscript reportableSNPsFreq.R -i /file/path/to/Study_variants.csv -r /file/path/to/reportable_SNPs.csv -o /path/to/ouput/directory/
 
 ### Novel synonymous and non-synonymous exonic and intronic SNPs
-#### Visualize the frequency of major and minor alleles for each novel variant
+#### Visualize the frequency of major and minor alleles for each novel variant (if > 1 variant present)
 1. Run R script NovelExonicNonSynSNPs.R
    * Rscript NovelExonicNonSynSNPs.R -i /file/path/to/Study_novel_exonic_variants.csv -o /path/to/output/directory/
 2. Run R script NovelExonicSynSNPs.R
