@@ -108,19 +108,18 @@ class Annotate:
                                                         str(var.ALT[0])))
                 continue
             elif var.CHROM == 'MT':
-                #print(var)
-                gene = self.getGene(var, bed_path)
+                gene, start = self.getGene(var, bed_path)
                 if gene == None:
                     logger.debug('Skipping intronic variant for modified CDS')
                     continue
                 else:
                     logger.debug('Inserting MT variant')
-                    logger.debug('{0}{4}:{1}:{2}>{3}'.format(var.CHROM, var.POS,
+                    logger.debug('{0}{4}:{1}:{2}>{3}'.format(var.CHROM, var.POS - start,
                                                              var.REF,
                                                              str(var.ALT[0]),
                                                              gene))
-                    for index, rec in enumerate(coding_dict['{0}{1}'.format(var.CHROM, gene)]):
-                        if rec[0] == var.REF and rec[1] == var.POS:
+                    for index, seq in enumerate(coding_dict['{0}{1}'.format(var.CHROM, gene)]):
+                        if seq == var.REF and index == var.POS - start:
                             coding_dict['{0}{1}'.format(var.CHROM, gene)][index][0] = str(var.ALT[0])
             else:
                 logger.debug('Inserting {0} variant'.format(var.CHROM))
@@ -180,17 +179,18 @@ class Annotate:
         bed_reader = reader.readBed(bed_path)
         gene_dict = self.getGeneDict(bed_reader)
         if var.CHROM == 'MT':
-            logger.debug('Getting start and stop for MT genes')
-            for rec in gene_dict['MT']:
-                if var.POS in range(rec[1], rec[2]):
-                    logger.debug('Variant found in {0}'.format(rec[0]))
-                    return(rec[0])
-                else:
-                    continue
-
+            mt_gene = gene_dict['MT']
+            if var.POS in range(mt_gene[0][1], mt_gene[0][2]):
+                return(mt_gene[0][0], mt_gene[0][1])
+            elif var.POS in range(mt_gene[1][1], mt_gene[1][2]):
+                return(mt_gene[1][0], mt_gene[1][1])
+            elif var.POS in range(mt_gene[2][1], mt_gene[2][2]):
+                return(mt_gene[2][0], mt_gene[2][1])
+            else:
+                return(None, None)
         elif var.POS in range(gene_dict[var.CHROM][0],gene_dict[var.CHROM][1] +1):
             logger.debug('Variant found in {0}'.format(var.CHROM))
-            return(var.CHROM)
+            return(var.CHROM, gene_dict[var.CHROM][0])
 
     def getAlFreq(self, depth):
         '''Calculate allele frequency based on allelic depth'''
@@ -375,6 +375,8 @@ class Annotate:
                             alt_fasta = alt_dict[bed_rec.chrom]
                         if bed_rec.strand == '+':
                             codon_pos = vcf_rec.POS - bed_rec.start + mrna_len + 1
+                            #if vcf_rec.CHROM == 'MT':
+                                #print(codon_pos, vcf_rec.CHROM, mrna_len)
                             alt = str(vcf_rec.ALT[0])
                             if len(vcf_rec.REF) > 1 or len(str(vcf_rec.ALT[0])) > 1 :
                                 refCodon = 'NA'
@@ -492,4 +494,7 @@ if __name__ == '__main__':
     out_path = os.path.abspath(sys.argv[4])
     annotate = Annotate(out_path)
     name = sys.argv[5]
-    annotate.iterVcf(bed_path, vcf_path, fasta_path, name)
+    sam_name = sys.argv[6]
+    #annotate.iterVcf(bed_path, vcf_path, sam_name, fasta_path, name)
+    coding_dict = annotate.getCodingFasta(fasta_path, bed_path)
+    print(coding_dict['MTcytob'])

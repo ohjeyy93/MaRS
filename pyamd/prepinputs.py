@@ -124,7 +124,7 @@ class Prepper:
             isPac = identifier.isPacbio()
             seqType = ''
             libType = ''
-            sample_regex = re.compile('_r1|_r2|r1|r2|_?l001|_?l002|l001|l002|l003|l004|_R1|_R2|R1|R2|_?L001|_?L002|_?L003|_?L004') #|L001|L002|L003|L004')
+            sample_regex = re.compile('_r1|_r2|r1|r2|_?l001|_?l002|l001|l002|l003|l004|_R1|_R2|_1|_2|_?L001|_?L002|_?L003|_?L004') #|L001|L002|L003|L004')
             sample = sample_regex.split(os.path.basename(fastq))[0]
             if isIllOld:
                 paired_regex = re.compile('@\w+-?\w+:\d+:\d+:\d+:\d+#\d')
@@ -163,7 +163,7 @@ class Prepper:
                     libType = 'Long'
             else:
 
-                logger.warning('Read from {0} with header : {1} does not follow any defined fastq header format.Please correct it'.format(fastq, rec_header))
+                logger.warning('Read from {0} with header : {1} does not follow any defined fastq header format.Please correct it'.format(fastq, rec.header))
             try:
                 paired = True
                 numreads = self.getReadNumbers(experiment[sample].files[0])

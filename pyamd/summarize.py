@@ -245,22 +245,21 @@ class Summary:
     def getBamStat(self, bamfile, chrom, start, stop):
         bamfile = pysam.AlignmentFile(bamfile, 'rb')
         codon_coverage = 0
-        if codon_pos == 0:
-            avg_codon_coverage = bamfile.count(chrom, pos-1, pos+2)
-        elif codon_pos == 1:
-            avg_codon_coverage = bamfile.count(chrom, pos-2, pos+1)
-        else:
-            avg_codon_coverage = bamfile.count(chrom, pos-3, pos)
+        avg_codon_coverage = bamfile.count(chrom, start, stop)
         return(avg_codon_coverage)
 
     def getNucPos(self, gene, aapos):
         bed = Bed(self.bed)
         bed_list = list()
         for records in bed.read():
+            if gene == 'MT' and gene == records.chrom:
+                #print(gene, aapos)
+                bed_list = [val for val in range(records.start, records.stop+1) if records.gene == 'cytob']
             if gene == records.chrom:
                 bed_list += [val for val in range(records.start, records.stop+1)]
         bed_list = [bed_list[ind:ind+3] for ind in range(0, len(bed_list),3)]
         try:
+            #print(bed_list[int(aapos)-1])
             return(bed_list[int(aapos)-1])
         except ValueError:
             return(np.nan)
@@ -269,10 +268,14 @@ class Summary:
         depth_list = list()
         for row, value in var_df.iterrows():
             bamfile = glob.glob('{0}/{1}*/output_sorted_RG.bam'.format(self.out_path, row[0]))[0]
-            nuc_pos = self.getNucPos(value.Gene_y, value.AAPos)
+            nuc_pos = self.getNucPos(value.Gene_y, int(value.AAPos))
+            #print(value.Gene_y, value.AAPos)
+            #print(nuc_pos)
             if nuc_pos == np.nan:
                 nuc_pos = [value.Pos -1, value.Pos + 1]
+            #print(nuc_pos)
             depth = self.getBamStat(bamfile, value.Gene_y, nuc_pos[0], nuc_pos[1])
+            #print(depth)
             depth_list.append(depth)            #np.log10(depth+1))
         var_df['DP'] = pd.Series(depth_list, index=var_df.index)
         return(var_df)
@@ -284,7 +287,6 @@ class Summary:
             nuc_pos = self.getNucPos(value.Gene, value.CodonPos)
             if nuc_pos == np.nan:
                 nuc_pos = [value.Pos -1, value.Pos + 1]
-
             depth = self.getBamStat(bamfile, value.Gene, nuc_pos[0], nuc_pos[1])
             depth_list.append(depth)
         var_df['DP'] = pd.Series(depth_list, index=var_df.index)
@@ -320,16 +322,16 @@ class Summary:
                     tranv += 1
         return(total, verfied, exonic, intronic, syn, nsyn, trans, tranv)
 
-    def getBamStat(self, bamfile, chrom, pos, codon_pos):
-        bamfile = pysam.AlignmentFile(bamfile, 'rb')
-        codon_coverage = 0
-        if codon_pos == 0:
-            avg_codon_coverage = bamfile.count(chrom, pos-1, pos+2)
-        elif codon_pos == 1:
-            avg_codon_coverage = bamfile.count(chrom, pos-2, pos+1)
-        else:
-            avg_codon_coverage = bamfile.count(chrom, pos-3, pos)
-        return(avg_codon_coverage)
+#    def getBamStat(self, bamfile, chrom, pos, codon_pos):
+        #bamfile = pysam.AlignmentFile(bamfile, 'rb')
+        #codon_coverage = 0
+        #if codon_pos == 0:
+    #        avg_codon_coverage = bamfile.count(chrom, pos-1, pos+2)
+    #    elif codon_pos == 1:
+    #        avg_codon_coverage = bamfile.count(chrom, pos-2, pos+1)
+    #    else:
+    #        avg_codon_coverage = bamfile.count(chrom, pos-3, pos)
+    #    return(avg_codon_coverage)
 
 
     def plotHeatMap(self, data_frame, title, mask):
