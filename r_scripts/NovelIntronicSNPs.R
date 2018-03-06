@@ -28,26 +28,28 @@ if(is.null(opt$output_dir)){
 setwd(opt$output_dir)
 
 tbl.in <- read_csv(opt$input_file, col_names = T)
-tbl.in$X1 <- NULL
-tbl.in$index <- NULL
+
 #Output revised Study_novel_exonic_variants_gt1.csv
-tbl.var.in <- tbl.in %>% group_by(Variant) %>% filter(n()>1)
-tbl.var.in <- tbl.var.in %>% ungroup()
-#tbl.var.in <- filter(tbl.var.in, Sample != "MRA1236_S252")
-write_csv(tbl.var.in, "Study_novel_intronic_variants_gt1.csv", col_names = T)
+#uncomment next two lines if you want to remove any samples that occur only one time
+#tbl.var.in <- tbl.in %>% group_by(Variant) %>% filter(n()>1)
+#tbl.var.in <- tbl.var.in %>% ungroup()
+
+#comment next line if the two lines above are uncommented (if you want to filter out samples occuring only once)
+tbl.var.in <- tbl.in
+write_csv(tbl.var.in, "Study_novel_intronic_variants_filtered.csv", col_names = T)
 
 #Output snps table
 tbl.in <- separate(tbl.var.in, Variant, c("Loci", "name"), sep = ":", remove = F)
 tbl.in <- select(tbl.in, Gene, Pos, Ref, Alt, name, Variant)
 tbl.in <- distinct(tbl.in, Variant, .keep_all = T)
-#Remove two variants that were N=0 and N=1 after figure generation
-#tbl.in <- filter(tbl.in, Variant != "PfCRT:T1069A", Variant != "PfCRT:A996C")
 tbl.in$Variant = NULL
 tbl.in <- arrange(tbl.in, Gene, Pos)
 colnames(tbl.in)[1] = "gene"
-colnames(tbl.in)[2] = "CodonPos="
+colnames(tbl.in)[2] = "AAPos="
 colnames(tbl.in)[3] = "RefAA="
 colnames(tbl.in)[4] = "AltAA="
+tbl.in$`RefAA=` <- as.character(tbl.in$`RefAA=`)
+tbl.in$`AltAA=` <- as.character(tbl.in$`AltAA=`)
 
 write_csv(tbl.in, "novel_SNPs_intronic.csv", col_names = T)
 
@@ -56,7 +58,7 @@ write_csv(tbl.in, "novel_SNPs_intronic.csv", col_names = T)
 library(readr)
 library(stringr)
 
-file <- "Study_novel_intronic_variants_gt1.csv"
+file <- "Study_novel_intronic_variants_filtered.csv"
 vcfdata <- read_csv(file, col_names = T)
 
 ## recode DP as numeric variable
@@ -69,8 +71,8 @@ vcfdata$AF[vcfdata$AF == "" & vcfdata$DP >= 0] = 0
 
 
 ################ minimum DP?
-#vcfdata$AF[vcfdata$DP == 0] = NA
-vcfdata$AF[vcfdata$DP < 5] = NA
+vcfdata$AF[vcfdata$DP == 0] = NA
+#vcfdata$AF[vcfdata$DP < 5] = NA
 
 
 ### convert frequency to proportion
