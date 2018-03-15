@@ -8,7 +8,7 @@
 5. Upload sequence files using Aspera Connect via command line (see below) or [SRA fle upload options](https://www.ncbi.nlm.nih.gov/sra/docs/submitfiles/)
 * Note: Do not use FTP transfer. This option times out too often/has too many connection issues with our experience.
 
-## File transfer using Aspera command line after submiting SRA metadata file
+## File transfer using Aspera command line after submitting SRA metadata file
 1. Download and install Aspera command line, if you do not currently have this installed.
     * Download **aspera cli** from [this link](http://downloads.asperasoft.com) under "Client Software"
     * Run the downloaded shell script
