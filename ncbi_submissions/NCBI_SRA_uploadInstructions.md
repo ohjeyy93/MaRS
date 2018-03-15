@@ -13,6 +13,7 @@
     * Download **aspera cli** from [this link](http://downloads.asperasoft.com) under "Client Software"
     * Run the downloaded shell script
     * In the command line run the export PATH command printed on your screen from output from the shell script
+      * (You also can add this path to your ~/.bash_profile for future use).
 2. Download the aspera key from the link provided in the SRA submission portal prompting you to upload your files
 3. Make sure all of your sequence files are grouped together in the same directory with no other files
 4. Run the following command in the command line
