@@ -17,6 +17,6 @@ After this line ends, you can start your own markdown page. Be creative! This is
 
 <!--more-->  
 
-Dhruviben Patel is a CDC fellow working with Malaria branch at Centers for Disease Control and Prevention since 2015. She received her Master in Bioinformatics from Georgia Institute of Technology.
+Dhruviben Patel is a CDC fellow working in the Malaria Branch at the CDC since 2015. She received her Masters in Bioinformatics from Georgia Institute of Technology.
 
 She has a strong bioinformatics background and is the lead quality assurance analyst for the MaRS Team. She also oversees the collection, curation and sharing of all MaRS data. In her spare time, she likes spending time with her husband and son, cooking and traveling.
