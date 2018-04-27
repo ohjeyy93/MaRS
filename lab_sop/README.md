@@ -4,15 +4,17 @@ The Malaria Resistance Surveillance or MaRS pipline, consists of a standardized 
 
 Version 3.3 (modified November 2, 2017)
 
-If you end up using MaRS in your workflow, please cite:
+*If you end up using MaRS in your workflow, please cite:*
 
-`Antimicrob Agents Chemother. 2018 Mar 27;62(4). pii: e02474-17. doi: 10.1128/AAC.02474-17. Print 2018 Apr.
+```
+Antimicrob Agents Chemother. 2018 Mar 27;62(4). pii: e02474-17. doi: 10.1128/AAC.02474-17. Print 2018 Apr.
 Next-Generation Sequencing and Bioinformatics Protocol for Malaria Drug Resistance Marker Surveillance.
 
-Talundzic E1, Ravishankar S2, Kelley J3, Patel D4, Plucinski M4, Schmedes S4,5, Ljolje D3, Clemons B6, Madison-Antenucci S6, Arguin PM4, Lucchi NW4, Vannberg F2, Udhayakumar V4.`
+Talundzic E1, Ravishankar S2, Kelley J3, Patel D4, Plucinski M4, Schmedes S4,5, Ljolje D3, Clemons B6, Madison-Antenucci S6, Arguin PM4, Lucchi NW4, Vannberg F2, Udhayakumar V4.
+```
 
 
-## MaRS Pipeline ##
+## MaRS Pipeline 
 
 #### MaRS consists of two standardized workflows:
   * [Laboratory SOP](https://github.com/CDCgov/MaRS/tree/master/lab_sop/MaRSsop.md)
