@@ -4,7 +4,7 @@ The Malaria Resistance Surveillance or MaRS pipline, consists of a standardized 
 
 Version 3.3 (modified November 2, 2017)
 
-*If you end up using MaRS in your workflow, please cite this[study](https://www.ncbi.nlm.nih.gov/pubmed/29439965):*
+*If you end up using MaRS in your workflow, please cite this [study](https://www.ncbi.nlm.nih.gov/pubmed/29439965):*
 
 ```
 Next-Generation Sequencing and Bioinformatics Protocol for Malaria Drug Resistance Marker Surveillance.
