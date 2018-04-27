@@ -1,1 +1,71 @@
-theme: jekyll-theme-minimal
+title: Malaria Resistance Surveillance (MaRS)
+# Copyright name =
+name: Eldin Talundzic
+# ----------------
+email: etalundzic@cdc.gov
+description: The Malaria Resistance Surveillance (MaRS) project aims to standardize the collection and mapping of genetic polymorphisms associated with drug resistance in malaria around the world.
+
+parallax_image_one: assets/images/quiet_sun.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/quiet_sun.jpg
+
+project_one: MaRS Laboratory Protocol
+project_one_description: Track any changes and/or updates to the targeted amplicon deep sequencing protocol for the full length drug resistance associated genes (k13, mdr1, crt, dhps, dhfr) and mitochondrial genome on the MiSeq System. Click on the github link for the detailed step by step protocol.
+project_one_url: https://github.com/CDCgov/MaRS/blob/master/lab_sop/MaRSsop.md
+project_one_icon:
+
+project_two: MaRS Bioinformatics Pipeline
+project_two_description: Track any changes and/or updates to the bioinormatics analysis pipeline. The analysis pipeline can be installed on any standard laptop. For detailed directions on how to set up the the MaRS analysis pipeline click on the github link!
+project_two_url: https://github.com/CDCgov/MaRS
+project_two_icon: photo_camera
+
+project_three: nil
+project_three_description: Describe your project!
+project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three_icon: hotel
+
+
+project_four: nil
+project_four_description: Describe your project!
+# project_four_url: https://github.com/jameshamann/jekyll-material-theme
+project_four_icon: restaurant
+
+portfolio_heading: Standard Operating Procedures (SOPs)
+portfolio_type: cards
+
+# Skill icons from https://konpa.github.io/devicon/
+
+skills:
+  - name:
+  - name:
+  - name:
+
+icon_size: 50 # font-size of icons in px
+colored: colored # Leave blank for black and white icons
+
+project_button: Github
+
+github: https://github.com/CDCgov/MaRS  # First button on contact list
+medium: https://www.cdc.gov/amd/project-summaries/next-gen-malaria-methods.html  # Second button on contacts list
+
+baseurl: /MaRSWebsite # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://localhost:4000/ #the url of your site
+
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookies_banner: none # The value "show" will show the cookies banner, the value "none" will hide the banner.
+
+cookie_accept_message: Thanks!
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge
+
+# theme: minima
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
