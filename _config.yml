@@ -47,7 +47,7 @@ project_button: Github
 github: https://github.com/CDCgov/MaRS  # First button on contact list
 medium: https://www.cdc.gov/amd/project-summaries/next-gen-malaria-methods.html  # Second button on contacts list
 
-baseurl: /MaRSWebsite # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
 url: http://localhost:4000/ #the url of your site
 
 google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
