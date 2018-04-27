@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sarah Schemedes  
+title: Sarah Schmedes 
 date: 2018-03-30 12:18:05 +0000
 image: assets/images/Sarah_S.jpg
 excerpt_separator: <!--more-->
