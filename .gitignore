@@ -1,5 +1,6 @@
 #Ignore directory with fastq files
 fq
+!fq/MaRS/SRR_Acc_List.txt
 #Ignore output directory
 local
 #Ignore reference folder
