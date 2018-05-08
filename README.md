@@ -1,4 +1,23 @@
-# Next-generation Sequence-analysis Toolkit (NeST) : A standardized bioinformatics framework for analyzing SNPs in next-generation sequencing data
+# MaRS (Malaria Resistance Surveillance)
+
+The emergence of resistance to all currently available antimalarial drugs in multiple regions of the world represents a current global public health challenge. In order to monitor and address this situation, faster and more effective surveillance tools are required to track and monitor the emergence and evolution of drug resistance in malaria. The Malaria Resistance Surveillance (MaRS) project aims to address this challenge by collating and mapping genetic polymorphisms associated with drug resistance in malaria around the world. The project achieves this by employing a targeted amplicon deep sequencing (TADS) approach [Lab Protocol](https://github.com/CDCgov/MaRS/tree/master/lab_sop) to detect single nucleotide polymorphisms on all major malaria drug resistance genes associated genes in samples sourced from travelers returning to the US from overseas, as well as samples actively collected in collaboration with partners from other countries.
+
+Data for this project can be found at the following link [NCBI BioProject](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490). Collaborators are encouraged to submit their own data using this [NCBI BioProject](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490)
+
+The Malaria Resistance Surveillance or MaRS analysis pipline, is an attempt at standardizing the workflow for identifying both known and new polymorhisms in P.falciparum genes associated with drug resistance.
+
+*If you end up using MaRS in your workflow, please cite this [study](https://www.ncbi.nlm.nih.gov/pubmed/29439965):*
+
+```
+Next-Generation Sequencing and Bioinformatics Protocol for Malaria Drug Resistance Marker Surveillance.
+
+Talundzic E, Ravishankar S, Kelley J, Patel D, Plucinski M, Schmedes S, Ljolje D, Clemons B,
+Madison-Antenucci S, Arguin PM, Lucchi NW, Vannberg F, Udhayakumar V.
+
+Antimicrob Agents Chemother. 2018 Mar 27;62(4). pii: e02474-17. doi: 10.1128/AAC.02474-17. Print 2018 Apr.
+```
+
+## Next-generation Sequence-analysis Toolkit (NeST) : A standardized bioinformatics framework for analyzing SNPs in next-generation sequencing data
 
 Advancements in next-generation sequencing have led to the development of numerous bioinformatics tools and pipelines. Current tools for variant calling offer high-quality solutions; however, many tools are tailored for model organisms. Here, we present NeST, a consensus-based variant calling tool with a plug-and-play framework for use with any organism with minimal user input. NeST consists of four modules, integrating open-source bioinformatics tools and a custom VCF parser, to generate high-quality consensus variant calls. NeST was validated using targeted-amplicon deep sequencing data from 245 Plasmodium falciparum isolates to identify single-nucleotide polymorphisms conferring drug resistance. NeST offers a light-weight pipeline for variant calling with standardized outputs and minimal computational demands for easy deployment for use with various organisms and applications. The following document outlines details of installation, results from MaRS dataset and usage of individual modules for analysis.
 
@@ -45,8 +64,14 @@ The figure outlines the four key blocks of NeST and the steps performed by each 
      1. Installing MiniConda:
         If you do not have MiniConda or Anaconda installed already, follow the steps below to setup the MiniConda environment.
 
+        On Linux systems:
         ```
         sh lib/Miniconda3-latest-Linux-x86_64.sh
+        ```
+
+        On Mac systems:
+        ```
+        sh lib/Miniconda3-latest-MacOSX-x86_64.sh
         ```
 
         Press ```ENTER``` when prompted, when asked for installation path, type yes and press ```ENTER``` to use your ```HOME``` folder as the site of  installation or enter path to the folder where you want Miniconda3 to be installed. When asked if you want to add Miniconda3 to your ```.bashrc```, type yes and press ```ENTER```, this will just add Miniconda3 to your ```PATH```.
