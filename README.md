@@ -4,31 +4,19 @@ The emergence of resistance to all currently available antimalarial drugs in mul
 
 Data for this project can be found at the following link [NCBI BioProject](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490). Collaborators are encouraged to submit their own data using this [NCBI BioProject](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490)
 
-The Malaria Resistance Surveillance or MaRS analysis pipline, is an attempt at standardizing the workflow for identifying both known and new polymorhisms in P.falciparum genes associated with drug resistance.
-
-*If you end up using MaRS in your workflow, please cite this [study](https://www.ncbi.nlm.nih.gov/pubmed/29439965):*
-
-```
-Next-Generation Sequencing and Bioinformatics Protocol for Malaria Drug Resistance Marker Surveillance.
-
-Talundzic E, Ravishankar S, Kelley J, Patel D, Plucinski M, Schmedes S, Ljolje D, Clemons B,
-Madison-Antenucci S, Arguin PM, Lucchi NW, Vannberg F, Udhayakumar V.
-
-Antimicrob Agents Chemother. 2018 Mar 27;62(4). pii: e02474-17. doi: 10.1128/AAC.02474-17. Print 2018 Apr.
-```
+The NeST analysis framework was developed as the analysis framework for the MaRS project, in an attempt to standardizing the workflow for the identification both known and new polymorphisms in P.falciparum genes associated with drug resistance.
 
 ## Next-generation Sequence-analysis Toolkit (NeST) : A standardized bioinformatics framework for analyzing SNPs in next-generation sequencing data
 
-Advancements in next-generation sequencing have led to the development of numerous bioinformatics tools and pipelines. Current tools for variant calling offer high-quality solutions; however, many tools are tailored for model organisms. Here, we present NeST, a consensus-based variant calling tool with a plug-and-play framework for use with any organism with minimal user input. NeST consists of four modules, integrating open-source bioinformatics tools and a custom VCF parser, to generate high-quality consensus variant calls. NeST was validated using targeted-amplicon deep sequencing data from 245 Plasmodium falciparum isolates to identify single-nucleotide polymorphisms conferring drug resistance. NeST offers a light-weight pipeline for variant calling with standardized outputs and minimal computational demands for easy deployment for use with various organisms and applications. The following document outlines details of installation, results from MaRS dataset and usage of individual modules for analysis.
+Advancements in next-generation sequencing have led to the development of numerous bioinformatics tools and pipelines. Current tools for variant calling offer high-quality solutions; however, many tools are tailored for model organisms. Here, we present NeST, a consensus-based variant calling tool with a plug-and-play framework for use with any organism with minimal user input. NeST consists of four modules, integrating open-source bioinformatics tools and a custom VCF parser, to generate high-quality consensus variant calls. NeST was validated using targeted-amplicon deep sequencing data from 245 Plasmodium falciparum isolates to identify single-nucleotide polymorphisms conferring drug resistance. NeST offers a light-weight pipeline for variant calling with standardized outputs and minimal computational demands for easy deployment for use with various organisms and applications. The following document outlines details of installation, and usage of individual modules for analysis.
 
 1. [Overview of NeST framework](#Overview)
 2. [Availability of code and installation](#Installation)
-3. [NeST for Malaria Resistance Surveillance(MaRS)](#MaRS)
-4. [Input standardization](#inputs)
-5. [NeST class structure](#classes)
+3. [Input standardization](#inputs)
+4. [NeST class structure](#classes)
 
 <a id="Overview"></a>
-## Overview of the NeST framework:
+### Overview of the NeST framework:
 
 NeST is a python based modular framework for consensus based variant calling. The overall analysis framework is broken down into four major blocks.
 1. PrepInputs
@@ -41,7 +29,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
 The figure outlines the four key blocks of NeST and the steps performed by each step. VarCallEngine and VCFToolkit are spawned in parallel for each sample that is being analyzed in the study. By default, 4 parallel threads are spawned, to account for minimum available computational resource. This can be altered as per availability of resources.
 
 <a id="Installation"></a>
-## Availability of code and installation:
+### Availability of code and installation:
 
 1. Download git repository:
 
@@ -125,13 +113,8 @@ The figure outlines the four key blocks of NeST and the steps performed by each 
    sh run.sh fq/ local/
    ```
 
-<a id="MaRS"></a>
-## NeST for Malaria Resistance Surveillance(MaRS):
-
-Coming soon
-
 <a id="inputs"></a>
-## Input standardization:
+### Input standardization:
 
 NeST is designed to reduce the amount of user intervention with regards to inputs that the user needs to provide. However to enable standardization of inputs across all organisms we require that a particular file format be followed for the three inputs listed below:
 
@@ -174,3 +157,16 @@ NeST is designed to reduce the amount of user intervention with regards to input
    | PfMDR1 | PfMDR1 |   N   |   86  |   Y   |
    | PfMDR1 | PfMDR1 |   Y   |   184 |   F   |
    | MT     | CYTOb  |   I   |   258 |   M   |
+
+## Citing MaRS 
+
+*If you end up using MaRS in your workflow, please cite this [study](https://www.ncbi.nlm.nih.gov/pubmed/29439965):*
+
+```
+Next-Generation Sequencing and Bioinformatics Protocol for Malaria Drug Resistance Marker Surveillance.
+
+Talundzic E, Ravishankar S, Kelley J, Patel D, Plucinski M, Schmedes S, Ljolje D, Clemons B,
+Madison-Antenucci S, Arguin PM, Lucchi NW, Vannberg F, Udhayakumar V.
+
+Antimicrob Agents Chemother. 2018 Mar 27;62(4). pii: e02474-17. doi: 10.1128/AAC.02474-17. Print 2018 Apr.
+```
