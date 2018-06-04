@@ -38,65 +38,20 @@ The figure outlines the four key blocks of NeST and the steps performed by each 
    git clone https://github.com/shashidhar22/NeST
    ```
 
-2. Installing perquisites for Conda:R
-   NeST requires [Python3](https://www.python.org/downloads/) to be installed with [Pip](https://pip.pypa.io/en/stable/installing/) available. Please make sure this is available on the system. To setup your runtime environment, we recommend using conda, the perquisites for conda can be installed using the following command
+2. Installing Python modules for NeST:
+   NeST requires [Python3](https://www.python.org/downloads/) to be installed with [Pip](https://pip.pypa.io/en/stable/installing/) available. Please make sure this is available on the system. NeST uses many python modules, that can be installed using the following command
 
    ```
-   python3 -m pip install pycosat pyyaml requests --user
+   python3 -m pip install numpy xlrd openpyxl pandas pysam --user
    ```
 
-3. Installing MiniConda and downloading third party libraries:
+3. Installing R packages for Nest:
 
-   NeST uses many Python and R modules along with standard bioinformatics tools for the analysis pipeline. To ensure easy installation and versioning of these tools, we using MiniConda package manager. The following steps detail the installation of MiniConda and the listed tools.
+   NeST uses R for the visualization of the data, to enable this, the following modules need to be installed in R. 
 
-     1. Installing MiniConda:
-        If you do not have MiniConda or Anaconda installed already, follow the steps below to setup the MiniConda environment.
-
-        On Linux systems:
-        ```
-        sh lib/Miniconda3-latest-Linux-x86_64.sh
-        ```
-
-        On Mac systems:
-        ```
-        sh lib/Miniconda3-latest-MacOSX-x86_64.sh
-        ```
-
-        Press ```ENTER``` when prompted, when asked for installation path, type yes and press ```ENTER``` to use your ```HOME``` folder as the site of  installation or enter path to the folder where you want Miniconda3 to be installed. When asked if you want to add Miniconda3 to your ```.bashrc```, type yes and press ```ENTER```, this will just add Miniconda3 to your ```PATH```.
-
-        Source your ```.bashrc```, to ensure that MiniConda gets loaded. To verify your installation, type the following command
-
-        ```
-        source ~/.bashrc
-        conda list
-        ```
-
-        This will display the list of installed packages in the MiniConda environment.
-        Update conda after installation and install anaconda client to allow the use of R packages in conda environment
-
-        ```
-        conda update conda
-        conda install anaconda-client anaconda-build conda-build
-        ```
-
-     2. Loading conda environment:
-
-        Loading the ```kookaburra_env.yaml``` from the ```lib``` folder will install all the required tools for NeST into a conda environment
-
-        ```
-        conda env create -n kook_env --file lib/kookaburra_env.yaml
-        source activate kook_env
-        gatk-register lib/GenomeAnalysisTK.jar
-        ```
-
-     3. Deactivate conda environment:
-        Once the analysis is complete you can exit from the NeST environment by typing the following command:
-
-        ```
-        source deactivate kook_env
-        ```
-
-        To perform another analysis with NeST you will activate the kook_env environment.
+   ```{R}
+   install.packages(c('ggplot2', 'dplyr', 'tidyr', 'optparse', 'readr', 'stringr'))
+   ```
 
 4. Your first analysis:
 
